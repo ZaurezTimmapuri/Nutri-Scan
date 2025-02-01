@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">nutri_scan</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="dummytext">Hello This is the Nutri Scan App , Stay tuned for updates</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string-array name="examples">
+        <item>Burned 🔥 </item>
+        <item>Consumed 🍔</item>
+    </string-array>
+</resources>

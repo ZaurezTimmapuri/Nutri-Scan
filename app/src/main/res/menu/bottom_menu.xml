@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:fontFamily="@font/montserrat_medium"
+        android:icon="@drawable/icon_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/dieto"
+        android:fontFamily="@font/montserrat_medium"
+        android:icon="@drawable/icon_dieto"
+        android:title="Dieto" />
+    <item
+        android:id="@+id/recommendation"
+        android:fontFamily="@font/montserrat_medium"
+        android:icon="@drawable/icon_recommendation"
+        android:title="Recom" />
+    <item
+        android:id="@+id/settings"
+        android:fontFamily="@font/montserrat_medium"
+        android:icon="@drawable/icon_settings"
+        android:title="Settings" />
+
+</menu>

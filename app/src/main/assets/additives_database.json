@@ -1,0 +1,1952 @@
+[
+  {
+    "Enumber": "E100",
+    "Name": "Curcumin",
+    "Description": "Naturally occurring orange/yellow colour Extracted from the spice turmeric",
+    "Usage": "Commonly found in pastries, confectionery, sauces, and soups"
+  },
+  {
+    "Enumber": "E101",
+    "Name": "Riboflavin or lactoflavin (Vitamin B2)",
+    "Description": "Naturally occurring B-group vitamin, Usually obtained from yeast or produced synthetically",
+    "Usage": "Enrichment and fortification of food, Also found in processed cheese as yellow/orange colour"
+  },
+  {
+    "Enumber": "E102",
+    "Name": "Tartrazine",
+    "Description": "Widely used yellow/orange colour",
+    "Usage": "Found in soft drinks, cakes, biscuits, puddings, meat products, sauces, tinned and packet convenience foods and confectionery"
+  },
+  {
+    "Enumber": "E104",
+    "Name": "Quinoline Yellow",
+    "Description": "A synthetic coal tar dye, greenish yellow in colour",
+    "Usage": "Used with other yellow colours, especially in smoked fish"
+  },
+  {
+    "Enumber": "E110",
+    "Name": "Sunset Yellow FCF or Orange Yellow S",
+    "Description": "A synthetic coal tar dye, yellow in colour, used with E102",
+    "Usage": "Found in soft drinks, cakes, biscuits, puddings, meat products, sauces, tinned and packet convenience foods and confectionery"
+  },
+  {
+    "Enumber": "E120",
+    "Name": "Cochineal or Carminic acid or Carmines",
+    "Description": "Natural red colour obtained from egg yolk and dried insects, Can be manufactured",
+    "Usage": "Red colour in foods"
+  },
+  {
+    "Enumber": "E122",
+    "Name": "Azorubine or Carmoisine",
+    "Description": "A synthetic coal tar dye, red/purple in colour",
+    "Usage": "Often added to raspberry and chocolate flavoured desserts, marzipan, jam, cherryade, bottled sauce, and breaded products"
+  },
+  {
+    "Enumber": "E123",
+    "Name": "Amaranth",
+    "Description": "A synthetic coal tar dye, red in colour",
+    "Usage": "Sometimes used in gravy mixes, meat patties, and blackcurrant drinks"
+  },
+  {
+    "Enumber": "E124",
+    "Name": "Ponceau 4R or Cochineal Red A",
+    "Description": "A synthetic coal tar dye, red in colour",
+    "Usage": "Often used to restore red colour to tinned strawberries,Also added to strawberry jam, jelly and ice cream, tomato soup, savoury rice, cheesecake mix, and some meat products"
+  },
+  {
+    "Enumber": "E127",
+    "Name": "Erythrosine",
+    "Description": "A synthetic coal tar dye, red in colour, Rich in mineral iodine",
+    "Usage": "Regular component of glace cherries, peach melba yogurt, vacuum-packed ham and pork, tinned strawberries, and certain flavours of chips and potato-based snacks"
+  },
+  {
+    "Enumber": "E128",
+    "Name": "Red 2G",
+    "Description": "A synthetic coal tar dye, red in colour",
+    "Usage": "Now banned in many countries including the EU and USA"
+  },
+  {
+    "Enumber": "E129",
+    "Name": "Allura Red AC",
+    "Description": "Colouring agent",
+    "Usage": "Commonly found in drinks, baked goods, meat products, and sweets"
+  },
+  {
+    "Enumber": "E131",
+    "Name": "Patent Blue V",
+    "Description": "Colouring agent",
+    "Usage": "Commonly found in some meat products"
+  },
+  {
+    "Enumber": "E132",
+    "Name": "lndigotine or Indigo Carmine",
+    "Description": "A synthetic coal tar dye, blue in colour",
+    "Usage": "Also found in gravy mix and certain meat products"
+  },
+  {
+    "Enumber": "E133",
+    "Name": "Brilliant Blue FCF",
+    "Description": "A synthetic coal tar dye, blue in colour, Often mixed with E102 to make green",
+    "Usage": "Bacon flavoured snacks"
+  },
+  {
+    "Enumber": "E140",
+    "Name": "Chlorophyll and chlorophyllins",
+    "Description": "Naturally occurring green pigment found plant leaves and stems Also manufactured",
+    "Usage": "Also found in green vegetables to enhance their colour"
+  },
+  {
+    "Enumber": "E141",
+    "Name": "Copper complexes of chlorophyll and chlorophyllins",
+    "Description": "A more stable colour obtained by a reaction between copper and manufactured chlorophyll",
+    "Usage": "Used to heighten the green colour of products such as cucumber relish"
+  },
+  {
+    "Enumber": "E142",
+    "Name": "Green S",
+    "Description": "A synthetic coal tar dye, green in colour",
+    "Usage": "Used to restore the expected green colour to tinned peas, Also added to asparagus soup, lemon or lime drinks and jellies, and mint sauce"
+  },
+  {
+    "Enumber": "E150a",
+    "Name": "Plain caramel",
+    "Description": "Commonly used brown colour and adds flavor made from the caramelisation or burning of sugar by heat or chemicals, No ammonium or sulphite reactants",
+    "Usage": "Commonly found in soft drinks, gravy mix, brown bread, cakes, biscuits, malt vinegar, marmalade, and beef products"
+  },
+  {
+    "Enumber": "E150b",
+    "Name": "Caustic sulphite caramel",
+    "Description": "With sulphite reactant, but no ammonium",
+    "Usage": "Commonly found in tea, whiskey, and brandy"
+  },
+  {
+    "Enumber": "E150c",
+    "Name": "Ammonia caramel",
+    "Description": "With ammonium reactant, but no sulphite",
+    "Usage": "Used to colour soy sauce and beer"
+  },
+  {
+    "Enumber": "E150d",
+    "Name": "Sulphite ammonia caramel",
+    "Description": "Colouring agent, With both sulphite and ammonia reactants",
+    "Usage": "Widely used for soft drinks"
+  },
+  {
+    "Enumber": "E151",
+    "Name": "Brilliant Black BN or Black PN",
+    "Description": "A synthetic coal tar dye, black in colour",
+    "Usage": "Used to darken fruit sauces"
+  },
+  {
+    "Enumber": "E153",
+    "Name": "Vegetable carbon",
+    "Description": "Natural black colour obtained from burnt plant material, now often manufactured",
+    "Usage": "Also found in concentrated fruit juices, preserves, and jellies"
+  },
+  {
+    "Enumber": "E155",
+    "Name": "Brown HT",
+    "Description": "A synthetic coal tar dye, brown in colour",
+    "Usage": "Various foods"
+  },
+  {
+    "Enumber": "E160a E160e",
+    "Name": "Carotenoids",
+    "Description": "Plant pigments derived from carrots, tomatoes, apricots, oranges, rose hip and green leafy vegetables, Now mostly manufactured",
+    "Usage": "Provide a range of colours from yellow to red"
+  },
+  {
+    "Enumber": "E160a",
+    "Name": "Alpha-, beta, and gamma-carotenes",
+    "Description": "Beta-carotene is a well-known substance that is converted by the body to Vitamin A, Orange in colour",
+    "Usage": "Also found in biscuits, cakes, margarine, creamed rice, cheese products, and certain soups"
+  },
+  {
+    "Enumber": "E160b",
+    "Name": "Annatto",
+    "Description": "Orange/peach pigment naturally present in butter and cheese",
+    "Usage": "Used to give creamy colour to creamed rice, coffee creamer, pastry, cheese, and cheese products"
+  },
+  {
+    "Enumber": "E160c",
+    "Name": "Paprika extract or Capsanthian; Capsorubin",
+    "Description": "Colouring agent (red)",
+    "Usage": "Can be used to add colour and flavour to various food products"
+  },
+  {
+    "Enumber": "E160d",
+    "Name": "Lycopene",
+    "Description": "Colouring agent (red), Carotenoid",
+    "Usage": "May be used in processed foods, beverages, and ketchup"
+  },
+  {
+    "Enumber": "E160e",
+    "Name": "Beta-apo-8'-carotenal (C30); apocarotenal",
+    "Description": "Colouring agent (orange/red), Carotenoid",
+    "Usage": "Sometimes used in processed cheese"
+  },
+  {
+    "Enumber": "E161b",
+    "Name": "Lutein",
+    "Description": "Colouring agent (yellow/orange), Carotenoid",
+    "Usage": "Has been used as a chicken feed additive to promote yellow colouring of egg yolks"
+  },
+  {
+    "Enumber": "E161g",
+    "Name": "Canthaxanthin",
+    "Description": "Colouring agent (reddish/orange), Carotenoid",
+    "Usage": "May be present in food and self-tanning products"
+  },
+  {
+    "Enumber": "E162",
+    "Name": "Betanin (Beetroot Red)",
+    "Description": "Naturally occurring red/purple colour in beetroots",
+    "Usage": "Sometimes found in oxtail soup"
+  },
+  {
+    "Enumber": "E163",
+    "Name": "Anthocyanins",
+    "Description": "Plant pigments with colours ranging from red to blue, Naturally present in red cabbage and grapes",
+    "Usage": "Commonly found in producing purple-colored beverages, confectionaries, and jams"
+  },
+  {
+    "Enumber": "E170",
+    "Name": "Calcium carbonate (chalk)",
+    "Description": "Naturally occurring mineral",
+    "Usage": "Various functions including acid regulator, firming agent, releasing agent, and nutrient, Also found in white flour as a calcium supplement to replace the loss due to refining, Frequently an ingredient in bread and baked products"
+  },
+  {
+    "Enumber": "E171",
+    "Name": "Titanium dioxide",
+    "Description": "Colouring agent",
+    "Usage": "Use no longer permitted in the EU and in Northern Ireland as of Feb 2022"
+  },
+  {
+    "Enumber": "E172",
+    "Name": "Iron oxides and hydroxides",
+    "Description": "Naturally occurring mineral",
+    "Usage": "Also found in fortify food, Also found in flour and breakfast cereals"
+  },
+  {
+    "Enumber": "E173",
+    "Name": "Aluminium",
+    "Description": "Colouring agent (silver/grey)",
+    "Usage": "Surface coating (eg, for cake decoration or confectionary)"
+  },
+  {
+    "Enumber": "E174",
+    "Name": "Silver",
+    "Description": "Colouring agent",
+    "Usage": "May be used for silver surface coating"
+  },
+  {
+    "Enumber": "E175",
+    "Name": "Gold",
+    "Description": "Colouring agent",
+    "Usage": "May be used for gold surface coating"
+  },
+  {
+    "Enumber": "E180",
+    "Name": "Lithol rubine BK",
+    "Description": "Colouring agent (red)",
+    "Usage": "Used for colouring cheese rind"
+  },
+  {
+    "Enumber": "E200",
+    "Name": "Sorbic acid",
+    "Description": "Naturally occurring in some fruit but generally manufactured synthetically for use as a food helps keep food fresh",
+    "Usage": "Commonly added to soft drinks, cheese spread, frozen pizza, and cakes"
+  },
+  {
+    "Enumber": "E202",
+    "Name": "Potassium sorbate",
+    "Description": "Salt of sorbic acid",
+    "Usage": "Used to preserve glace cherries"
+  },
+  {
+    "Enumber": "E210",
+    "Name": "Benzoic acid",
+    "Description": "Occurs naturally in cherry bark, raspberries, tea, anise, and cassia bark, but largely prepared synthetically for commercial use",
+    "Usage": "Acts as a preservative and antioxidant most frequently in fruit products, soft drinks, pickled produce, and salad dressings"
+  },
+  {
+    "Enumber": "E211",
+    "Name": "Sodium benzoate",
+    "Description": "Salt of benzoic acid",
+    "Usage": "In bottled sauces"
+  },
+  {
+    "Enumber": "E212",
+    "Name": "Potassium benzoate",
+    "Description": "Salt of benzoic acid",
+    "Usage": "As per benzoic acid (E210)"
+  },
+  {
+    "Enumber": "E213",
+    "Name": "Calcium benzoate",
+    "Description": "Salt of benzoic acid",
+    "Usage": "As per benzoic acid (E210)"
+  },
+  {
+    "Enumber": "E214",
+    "Name": "Ethyl p-hydroxybenzoate",
+    "Description": "Preservative, Salt of benzoic acid",
+    "Usage": "As per benzoic acid (E210)"
+  },
+  {
+    "Enumber": "E215",
+    "Name": "Sodium ethyl p-hydroxybenzoate",
+    "Description": "Preservative, Salt of benzoic acid",
+    "Usage": "As per benzoic acid (E210)"
+  },
+  {
+    "Enumber": "E218",
+    "Name": "Methyl p-hydroxybenzoate",
+    "Description": "Salt of benzoic acid",
+    "Usage": "As per benzoic acid (E210)"
+  },
+  {
+    "Enumber": "E219",
+    "Name": "Sodium methyl p-hydroxybenzoate",
+    "Description": "Preservative, Salt of benzoic acid",
+    "Usage": "As per benzoic acid (E210)"
+  },
+  {
+    "Enumber": "E220",
+    "Name": "Sulfur dioxide",
+    "Description": "Gas prepared chemically for use as a food helps keep food fresh, flour improver, bleaching agent, and Vitamin C keeps texture stable",
+    "Usage": "Found in carbonated drinks, marmalade, glace cherries, mixed peel, cakes, fruit based products, and meat products"
+  },
+  {
+    "Enumber": "E221",
+    "Name": "Sodium sulphite",
+    "Description": "Preservative",
+    "Usage": "May be used to prevent discolouration in dried fruit"
+  },
+  {
+    "Enumber": "E222",
+    "Name": "Sodium hydrogen sulphite",
+    "Description": "Synthetic helps keep food fresh and bleaching agent",
+    "Usage": "Often added to wine and beer"
+  },
+  {
+    "Enumber": "E223",
+    "Name": "Sodium metabisulphite",
+    "Description": "Synthetic helps keep food fresh",
+    "Usage": "Also found in sausages and some bottled sauces"
+  },
+  {
+    "Enumber": "E224",
+    "Name": "Potassium metabisulphite",
+    "Description": "Preservative",
+    "Usage": "Sometimes used to preserve beer, wine, and other fermented beverages"
+  },
+  {
+    "Enumber": "E226",
+    "Name": "Calcium sulphite",
+    "Description": "Preservative",
+    "Usage": "Banned in Australia"
+  },
+  {
+    "Enumber": "E227",
+    "Name": "Calcium hydrogen sulphite",
+    "Description": "Preservative",
+    "Usage": "May be used in canned fruit and beer products"
+  },
+  {
+    "Enumber": "E228",
+    "Name": "Potassium hydrogen sulphite",
+    "Description": "Preservative",
+    "Usage": "May be used in alcoholic beverages"
+  },
+  {
+    "Enumber": "E234",
+    "Name": "Nisin",
+    "Description": "Preservative",
+    "Usage": "Cheese and dairy products"
+  },
+  {
+    "Enumber": "E300",
+    "Name": "Ascorbic acid (Vitamin C)",
+    "Description": "Occurs naturally in fruit and vegetables but is synthesised biologically, Acts as a helps keep food fresh, anti-oxidant, meat colour fixative, and flour improver, Also a vitamin",
+    "Usage": "Found in fruit juices, bread, baked products, powdered mashed potatoes, and other products "
+  },
+  {
+    "Enumber": "E301",
+    "Name": "Sodium ascorbate",
+    "Description": "Salt of ascorbic acid",
+    "Usage": "Also found in cured meats"
+  },
+  {
+    "Enumber": "E302",
+    "Name": "Calcium ascorbate",
+    "Description": "Salt of ascorbic acid",
+    "Usage": "Similar function to ascorbic acid (E300)"
+  },
+  {
+    "Enumber": "E304",
+    "Name": "Fatty acid esters of ascorbic acid",
+    "Description": "Salt of ascorbic acid",
+    "Usage": "Commonly found in sausage and cured meats"
+  },
+  {
+    "Enumber": "E306",
+    "Name": "Tocopherol (Vitamin E)",
+    "Description": "Obtained from soya bean oil, wheatgerm, rice germ, cottonseed, maize, and green leaves",
+    "Usage": "Also found in fats and oils, Used as an antioxidant and nutrient"
+  },
+  {
+    "Enumber": "E307",
+    "Name": "Alpha-tocopherol",
+    "Description": "Synthetic products of tocopherol with similar functions (see E306)",
+    "Usage": "Also found in fats and oils"
+  },
+  {
+    "Enumber": "E308",
+    "Name": "Gamma-tocopherol",
+    "Description": "Synthetic products of tocopherol with similar functions (see E306)",
+    "Usage": "Also found in fats and oils"
+  },
+  {
+    "Enumber": "E309",
+    "Name": "Delta-tocopherol",
+    "Description": "Synthetic products of tocopherol with similar functions (see E306)",
+    "Usage": "Also found in fats and oils"
+  },
+  {
+    "Enumber": "E310",
+    "Name": "Propyl gallate",
+    "Description": "Synthetically prepared antioxidant",
+    "Usage": "Also found in fats and oils Found in fried foods, May give rise to a bitter taste"
+  },
+  {
+    "Enumber": "E315",
+    "Name": "Erythorbic acid",
+    "Description": "Antioxidant",
+    "Usage": "Processed meat and fish products"
+  },
+  {
+    "Enumber": "E316",
+    "Name": "Sodium erythorbate",
+    "Description": "Antioxidant",
+    "Usage": "Meat products"
+  },
+  {
+    "Enumber": "E319",
+    "Name": "Tertiary-butyl hydroquinone (TBHQ)",
+    "Description": "Antioxidant",
+    "Usage": "Fats and oils"
+  },
+  {
+    "Enumber": "E320",
+    "Name": "Butylated hydroxyanisole (BHA)",
+    "Description": "Antioxidant manufactured synthetically for use alone or with E280, E310, or E330",
+    "Usage": "Often found in chips and other potato snacks, biscuits, pastry, bottled sauces, and fried foods"
+  },
+  {
+    "Enumber": "E321",
+    "Name": "Butylated hydroxytoluene (BHT)",
+    "Description": "Synthetically prepared antioxidant",
+    "Usage": "Similar to butylated hydroxyanisole (E320)"
+  },
+  {
+    "Enumber": "E392",
+    "Name": "Extracts of rosemary",
+    "Description": "Antioxidant",
+    "Usage": "Fat-based spreads"
+  },
+  {
+    "Enumber": "E586",
+    "Name": "4-Hexylresorcinol",
+    "Description": "Antioxidant",
+    "Usage": "Shrimps and crustaceans"
+  },
+  {
+    "Enumber": "E300",
+    "Name": "Ascorbic acid (Vitamin C)",
+    "Description": "Occurs naturally in fruit and vegetables but is synthesised biologically, Acts as a helps keep food fresh, anti-oxidant, meat colour fixative, and flour improver, Also a vitamin",
+    "Usage": "Found in fruit juices, bread, baked products, powdered mashed potatoes, and other products"
+  },
+  {
+    "Enumber": "E301",
+    "Name": "Sodium ascorbate",
+    "Description": "Salt of ascorbic acid",
+    "Usage": "Also found in cured meats"
+  },
+  {
+    "Enumber": "E302",
+    "Name": "Calcium ascorbate",
+    "Description": "Salt of ascorbic acid",
+    "Usage": "Similar function to ascorbic acid (E300)"
+  },
+  {
+    "Enumber": "E304",
+    "Name": "Fatty acid esters of ascorbic acid",
+    "Description": "Salt of ascorbic acid",
+    "Usage": "Commonly found in sausage and cured meats"
+  },
+  {
+    "Enumber": "E306",
+    "Name": "Tocopherol (Vitamin E)",
+    "Description": "Obtained from soya bean oil, wheatgerm, rice germ, cottonseed, maize, and green leaves",
+    "Usage": "Also found in fats and oils, Used as an antioxidant and nutrient"
+  },
+  {
+    "Enumber": "E307",
+    "Name": "Alpha-tocopherol",
+    "Description": "Synthetic products of tocopherol with similar functions (see E306)",
+    "Usage": "Also found in fats and oils"
+  },
+  {
+    "Enumber": "E308",
+    "Name": "Gamma-tocopherol",
+    "Description": "Synthetic products of tocopherol with similar functions (see E306)",
+    "Usage": "Also found in fats and oils "
+  },
+  {
+    "Enumber": "E309",
+    "Name": "Delta-tocopherol",
+    "Description": "Synthetic products of tocopherol with similar functions (see E306)",
+    "Usage": " Also found in fats and oils"
+  },
+  {
+    "Enumber": "E310",
+    "Name": "Propyl gallate",
+    "Description": "Synthetically prepared antioxidant",
+    "Usage": "Also found in fats and oils, Found in fried foods, May give rise to a bitter taste"
+  },
+  {
+    "Enumber": "E315",
+    "Name": "Erythorbic acid",
+    "Description": "Antioxidant",
+    "Usage": "Processed meat and fish products"
+  },
+  {
+    "Enumber": "E316",
+    "Name": "Sodium erythorbate",
+    "Description": "Antioxidant",
+    "Usage": "Meat products"
+  },
+  {
+    "Enumber": "E319",
+    "Name": "Tertiary-butyl hydroquinone (TBHQ)",
+    "Description": "Antioxidant",
+    "Usage": "Fats and oils"
+  },
+  {
+    "Enumber": "E320",
+    "Name": "Butylated hydroxyanisole (BHA)",
+    "Description": "Antioxidant manufactured synthetically for use alone or with E280, E310, or E330",
+    "Usage": "Often found in chips and other potato snacks, biscuits, pastry, bottled sauces, and fried foods"
+  },
+  {
+    "Enumber": "E321",
+    "Name": "Butylated hydroxytoluene (BHT)",
+    "Description": "Synthetically prepared antioxidant",
+    "Usage": "Similar to butylated hydroxyanisole (E320)"
+  },
+  {
+    "Enumber": "E392",
+    "Name": "Extracts of rosemary",
+    "Description": "Antioxidant",
+    "Usage": "Fat-based spreads"
+  },
+  {
+    "Enumber": "E586",
+    "Name": "4-Hexylresorcinol",
+    "Description": "Antioxidant",
+    "Usage": "Shrimps and crustaceans"
+  },
+  {
+    "Enumber": "E322",
+    "Name": "Lecithins",
+    "Description": "Type of fat or lipid compound found naturally in all living organisms, protective against cholesterol deposition",
+    "Usage": "Found in chocolate and chocolate products, powdered milk, margarine, and potato snacks, Egg yolk is a rich source of lecithins, but commercially, most is obtained from soya beans, Used as an antioxidant and emulsifier"
+  },
+  {
+    "Enumber": "E400",
+    "Name": "Alginic acid",
+    "Description": "Emulsifier, keeps texture stable, gelling agent, and makes foods thicker extracted from brown seaweed",
+    "Usage": "Frequently added to ice cream, instant desserts, and puddings"
+  },
+  {
+    "Enumber": "E401",
+    "Name": "Sodium alginate",
+    "Description": "Salt of alginic acid with similar functions (see E400)",
+    "Usage": "See E400 (alginic acid)"
+  },
+  {
+    "Enumber": "E402",
+    "Name": "Potassium alginate",
+    "Description": "Salt of alginic acid with similar functions (see E400)",
+    "Usage": "See E400 (alginic acid)"
+  },
+  {
+    "Enumber": "E403",
+    "Name": "Ammonium alginate",
+    "Description": "Salt of alginic acid with similar functions (see E400)",
+    "Usage": "See E400 (alginic acid)"
+  },
+  {
+    "Enumber": "E404",
+    "Name": "Calcium alginate",
+    "Description": "Salt of alginic acid with similar functions (see E400)",
+    "Usage": "See E400 (alginic acid)"
+  },
+  {
+    "Enumber": "E405",
+    "Name": "Propane-1,2-diol alginate; propylene glycol alginate (PGA)",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent, Ester made from alginic acid (E400) and propylene glycol (E1520)",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E406",
+    "Name": "Agar",
+    "Description": "Naturally occurring gum extracted from seaweeds, Not digested so acts a source of dietary fibre, Also acts as a keeps texture stable and gelling agent",
+    "Usage": "Commonly found in tinned ham, meat glazes, and in ice cream "
+  },
+  {
+    "Enumber": "E407",
+    "Name": "Carrageenan (Irish moss)",
+    "Description": "Gum naturally present in red seaweed",
+    "Usage": "Found in ice cream, Used as an emulsifier, stabiliser, and gelling agent, Alternative to gelatin"
+  },
+  {
+    "Enumber": "E407a",
+    "Name": "Processed eucheuma seaweed",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E410",
+    "Name": "Locust bean gum; carob gum",
+    "Description": "Natural extract from the Carob tree seed, Similar to E407",
+    "Usage": "Also found in ice cream, and soups"
+  },
+  {
+    "Enumber": "E415",
+    "Name": "Xanthan gum",
+    "Description": "A natural polysaccharide derived from fermented sugars.",
+    "Usage": "In the food industry as a thickening and stabilizing agent."
+  },
+  {
+    "Enumber": "E416",
+    "Name": "Karaya gum",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "food additive enhances texture and prevents ingredient separation in a wide range of products"
+  },
+  {
+    "Enumber": "E417",
+    "Name": "Tara gum",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E418",
+    "Name": "Gellan gum",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E425",
+    "Name": "Konjac",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E433",
+    "Name": "Polyoxyethylene sorbitan mono-oleate; Polysorbate 80",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E434",
+    "Name": "Polyoxyethylene sorbitan monopalmitate; Polysorbate 40",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E435",
+    "Name": "Polyoxyethylene sorbitan monostearate; Polysorbate 60",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent, Prepared from sorbitol (E420)",
+    "Usage": "Bread and baked products"
+  },
+  {
+    "Enumber": "E436",
+    "Name": "Polyoxyethylene sorbitan tristearate; Polysorbate 65",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E440a",
+    "Name": "Pectin",
+    "Description": "Occurs naturally in fruits, roots, and stems of plants",
+    "Usage": "Used as a stabiliser and gelling agent, Also found in preserves, jellies, and mint sauce"
+  },
+  {
+    "Enumber": "E440b",
+    "Name": "Amidated pectin",
+    "Description": "Chemically treated pectin used as an helps mix ingredients and gelling agent",
+    "Usage": "Preserves and jellies "
+  },
+  {
+    "Enumber": "E442",
+    "Name": "Ammonium phosphatide",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E444",
+    "Name": "Sucrose acetate isobutyrate",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E445",
+    "Name": "Glycerol esters of wood rosins",
+    "Description": "Emulsifier, keeps texture stable, makes foods thickers, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E460",
+    "Name": "Cellulose",
+    "Description": "Fibrous part of plant cell walls used as a bulking agent",
+    "Usage": "Commonly found in high fibre bread and low-calorie products"
+  },
+  {
+    "Enumber": "E461",
+    "Name": "Methyl cellulose",
+    "Description": "Derived from cellulose with similar properties",
+    "Usage": "Commonly found in slimming foods"
+  },
+  {
+    "Enumber": "E462",
+    "Name": "Ethyl cellulose",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E463",
+    "Name": "Hydroxypropyl cellulose",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E464",
+    "Name": "Hydroxypropyl methyl cellulose",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E465",
+    "Name": "Ethyl methyl cellulose",
+    "Description": "Derived from cellulose with similar properties",
+    "Usage": "Also found in fruit cake and bottled sauces"
+  },
+  {
+    "Enumber": "E466",
+    "Name": "Carboxymethyl cellulose",
+    "Description": "Derived from cellulose with similar properties",
+    "Usage": "Commonly found in ice cream, cream products, and cheesecake mix"
+  },
+  {
+    "Enumber": "E468",
+    "Name": "Crosslinked sodium carboxymethyl cellulose",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E469",
+    "Name": "Enzymatically hydrolysed carboxymethyl cellulose",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E470a",
+    "Name": "Sodium, potassium, and calcium salts of fatty acids",
+    "Description": "Synthetically manufactured helps mix ingredientss, keeps texture stables, and anti-caking agents",
+    "Usage": "Crisps and potato snacks "
+  },
+  {
+    "Enumber": "E470b",
+    "Name": "Magnesium salts of fatty acids",
+    "Description": "Emulsifiers, keeps texture stables, makes foods thickers, and gelling agents",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E471",
+    "Name": "Mono- and diglycerides of fatty acids",
+    "Description": "Normal products of fat digestion but are prepared synthetically",
+    "Usage": "Frequently added to powdered milk, packet soup, cake, crisps, potato snacks, bread, baked products, and margarine "
+  },
+  {
+    "Enumber": "E472a",
+    "Name": "Acetic acid esters of mono- and diglycerides of fatty acids",
+    "Description": "Emulsifiers, keeps texture stables, makes foods thickers, and gelling agents",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E472b",
+    "Name": "Lactic acid esters of mono- and diglycerides of fatty acids",
+    "Description": "Emulsifiers, keeps texture stables, makes foods thickers, and gelling agents",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E472c",
+    "Name": "Citric acid esters of mono- and diglycerides of fatty acids",
+    "Description": "Emulsifiers, keeps texture stables, makes foods thickers, and gelling agents",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E472d",
+    "Name": "Tartaric acid esters of mono- and diglycerides of fatty acids",
+    "Description": "Emulsifiers, keeps texture stables, makes foods thickers, and gelling agents",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E472e",
+    "Name": "Mono- and diacetyltartaric acid esters of mono- and diglycerides of fatty acids",
+    "Description": "Emulsifiers, keeps texture stables, makes foods thickers, and gelling agents",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E472f",
+    "Name": "Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids",
+    "Description": "Emulsifiers, keeps texture stables, makes foods thickers, and gelling agents",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E473",
+    "Name": "Sucrose esters of fatty acids",
+    "Description": "Emulsifiers, keeps texture stables, makes foods thickers, and gelling agents",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E474",
+    "Name": "Sucroglycerides",
+    "Description": "Emulsifiers, keeps texture stables, makes foods thickers, and gelling agents",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E475",
+    "Name": "Polyglycerol esters of fatty acids",
+    "Description": "Synthetic product of E471 used as an helps mix ingredients and keeps texture stable",
+    "Usage": "Puddings and packet cheesecakes"
+  },
+  {
+    "Enumber": "E476",
+    "Name": "Polyglycerol polyricinoleate",
+    "Description": "Emulsifiers, keeps texture stables, makes foods thickers, and gelling agents",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E477",
+    "Name": "Propane-1,2-diol esters of fatty acids",
+    "Description": "Emulsifiers, keeps texture stables, makes foods thickers, and gelling agents",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E479b",
+    "Name": "Thermally oxidised soya bean oil interacted with mono- and diglycerides of fatty acids",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E481",
+    "Name": "Sodium stearoyl-2-lactylate",
+    "Description": "Prepared synthetically from lactic acid",
+    "Usage": "Potato snacks, Used as a stabiliser and emulsifier"
+  },
+  {
+    "Enumber": "E482",
+    "Name": "Calcium stearoyl-2-lactylate",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E483",
+    "Name": "Stearyl tartrate",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E491",
+    "Name": "Sorbitan monostearate",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E492",
+    "Name": "Sorbitan tristearate",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E493",
+    "Name": "Sorbitan monolaurate",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E494",
+    "Name": "Sorbitan monooleate",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E495",
+    "Name": "Sorbitan monopalmitate",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E1103",
+    "Name": "Invertase",
+    "Description": "Emulsifier, keeps texture stable, makes foods thicker, and gelling agent",
+    "Usage": "Current Product & More.."
+  },
+  {
+    "Enumber": "E421",
+    "Name": "Mannitol",
+    "Description": "Sugar alcohol derived from mannose, but general manufactured from seaweed, Acts as a sweetener, helps mix ingredients, anti-caking agent, and makes foods thicker",
+    "Usage": "Commonly found in confectionery and desserts   "
+  },
+  {
+    "Enumber": "E542",
+    "Name": "Edible bone phosphate",
+    "Description": "Produced from animal bones, Used as anti-caking agent, helps mix ingredients and source of phosphorous in food supplements. Main use, however, is in cosmetics (such as tooth paste) ",
+    "Usage": "Dry products, cane sugar"
+  },
+  {
+    "Enumber": "E950",
+    "Name": "Acesulfame K",
+    "Description": "a Sweetener",
+    "Usage": "Low-calorie sweetener used in various food and drinks"
+  },
+  {
+    "Enumber": "E951",
+    "Name": "Aspartame",
+    "Description": "New artificial sweetener of protein origin, Contains phenylalanine",
+    "Usage": "Artificial sweeteners, confectionery, ice cream, low calorie desserts, and soft drinks   "
+  },
+  {
+    "Enumber": "E952",
+    "Name": "Cyclamic acid and its Na and Ca salts",
+    "Description": "Artificial sweetener",
+    "Usage": "Artificial sweetener"
+  },
+  {
+    "Enumber": "E953",
+    "Name": "lsomalt",
+    "Description": "Sweetener, High temperature stability",
+    "Usage": "Used as a sweetener in heat-treated products eg, bakery products   "
+  },
+  {
+    "Enumber": "E954",
+    "Name": "Saccharin and its Na, K, and Ca salts",
+    "Description": "Calorie-free artificial sweetener   ",
+    "Usage": "Low calorie products, soft drinks, and confectionery   "
+  },
+  {
+    "Enumber": "E955",
+    "Name": "Sucralose",
+    "Description": "   Sweetener",
+    "Usage": "Candy, breakfast bars, soft drinks, canned fruits"
+  },
+  {
+    "Enumber": "E957",
+    "Name": "Thaumatin",
+    "Description": "Sweetener, Natural plant protein",
+    "Usage": "May be used in beverages, dairy products, or chewing gum"
+  },
+  {
+    "Enumber": "E959",
+    "Name": "Neohesperidine DC",
+    "Description": "Sweetener, Derived from citrus",
+    "Usage": "Widely used in desserts, dairy products, confectionary, and beverages"
+  },
+  {
+    "Enumber": "E960",
+    "Name": "Steviol glycoside",
+    "Description": "   Sweetener",
+    "Usage": "Widely used in carbonated soft drinks, juice, tea, desserts, dairy products, confectionary, and other products"
+  },
+  {
+    "Enumber": "E961",
+    "Name": "Neotame",
+    "Description": "Sweetener, similar to aspartame (E951)",
+    "Usage": "Widely used (see E951)"
+  },
+  {
+    "Enumber": "E962",
+    "Name": "Salt of aspartame-acesulfame",
+    "Description": "Low-calorie sweetener",
+    "Usage": "Low-calorie sweetener"
+  },
+  {
+    "Enumber": "E964",
+    "Name": "Polyglycitol syrup",
+    "Description": "   Sweetener",
+    "Usage": "Sweetener"
+  },
+  {
+    "Enumber": "E965",
+    "Name": "Maltitol",
+    "Description": "Naturally occurring sugar in grapes and corn",
+    "Usage": "Confectionery, cakes, biscuits, puddings, desserts, soft drinks, convenience foods"
+  },
+  {
+    "Enumber": "E966",
+    "Name": "Lactitol",
+    "Description": "Synthetic sweetener, Derived from lactose",
+    "Usage": "Replacement bulk sweetener for low-calorie foods"
+  },
+  {
+    "Enumber": "E967",
+    "Name": "Xylitol",
+    "Description": "a Sweetener",
+    "Usage": "Widely used as sugar substitute eg, confectionary, sweet sauces, liqueurs, jams, desserts   "
+  },
+  {
+    "Enumber": "E968",
+    "Name": "Erythritol",
+    "Description": "Sweetener, Made from carbohydrate fermentation",
+    "Usage": "Sweetener"
+  },
+  {
+    "Enumber": "E969",
+    "Name": "Advantame",
+    "Description": "   Sweetener",
+    "Usage": "Tabletop sweetener, confectionary, bubblegum, flavoured drinks, and other products"
+  },
+  {
+    "Enumber": "E420",
+    "Name": "Sorbitol",
+    "Description": "Sugar alcohol produced from glucose Less quickly absorbed than sugar so often used as a sweetener Also used as a humectant and food colour diluent May have a laxative effect in large doses",
+    "Usage": "Widely used in diabetic confectionery, preserves, biscuits, cakes, and soft drinks"
+  },
+  {
+    "Enumber": "E260",
+    "Name": "Acetic acid",
+    "Description": "Natural component of vinegar but generally manufactured from wood, Used as a helps keep food fresh, acid, or colour diluent",
+    "Usage": "Found in pickles, bottled sauces, and chutneys "
+  },
+  {
+    "Enumber": "E261",
+    "Name": "Potassium acetate",
+    "Description": "Flavour agent, helps keep food fresh, and used to control acidity, Potassium salt of acetic acid (E260)",
+    "Usage": "Used as flavouring agent in snack foods such as potato chips (vinegar taste) Also used in potassium supplements"
+  },
+  {
+    "Enumber": "E262",
+    "Name": "Sodium acetate",
+    "Description": "Flavouring agent, helps keep food fresh, and acid, Sodium salt of acetic acid (E260)",
+    "Usage": "Salt and vinegar chip flavouring, among other uses "
+  },
+  {
+    "Enumber": "E263",
+    "Name": "Calcium acetate",
+    "Description": "Flavouring agent, helps keep food fresh, and acid, Calcium salt of acetic acid (E260)",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E270",
+    "Name": "Lactic acid",
+    "Description": "Produced by the fermentation of lactose (the sugar present in milk), Occurs naturally in soured milk and yoghurt, Acts as a helps keep food fresh, acid, flavour, and assists the action of antioxidants",
+    "Usage": "Widely used in salad dressings, cakes, biscuits, confectionery, and certain types of prepared meat dishes "
+  },
+  {
+    "Enumber": "E290",
+    "Name": "Carbon dioxide",
+    "Description": "Gas present in air, but produced synthetically for food, Adds the fizz to fizzy drinks (carbonation), Also used as a coolant, freezant, propellant, helps keep food fresh, and packaging gas",
+    "Usage": "Carbonated drinks "
+  },
+  {
+    "Enumber": "E296",
+    "Name": "Malic acid",
+    "Description": "Flavouring agent, used to control acidity, colour keeps texture stable",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E297",
+    "Name": "Fumaric acid",
+    "Description": "Prepared synthetically as an acid flavour",
+    "Usage": "Baked products"
+  },
+  {
+    "Enumber": "E325",
+    "Name": "Sodium lactate",
+    "Description": "Preservative, used to control acidity, and bulking agent",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E326",
+    "Name": "Potassium lactate",
+    "Description": "Preservative",
+    "Usage": "Meat and poultry products"
+  },
+  {
+    "Enumber": "E327",
+    "Name": "Calcium lactate",
+    "Description": "Firming agent, adds flavor, makes foods thicker, keeps texture stable, antioxidant",
+    "Usage": "Commonly found in fruit and vegetable processing, May be used in calcium supplements "
+  },
+  {
+    "Enumber": "E330",
+    "Name": "Citric acid; lemon salt",
+    "Description": "Acidity regulator, helps keep food fresh",
+    "Usage": "Commonly used in canned foods, snacks, ice creams, soft drinks"
+  },
+  {
+    "Enumber": "E331",
+    "Name": "Sodium citrates",
+    "Description": "Preservatives, adds flavors, helps mix ingredientss, Sodium salt of citric acid (E330)",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E332",
+    "Name": "Potassium citrates",
+    "Description": "Acidity regulators, adds flavors, Potassium salt of citric acid (E330)",
+    "Usage": "As well as food additive, may be used to treat kidney stones"
+  },
+  {
+    "Enumber": "E333",
+    "Name": "Calcium citrates",
+    "Description": "Preservatives, adds flavors, Calcium salt of citric acid (E330)",
+    "Usage": "As well as food additive, sometimes used in calcium supplements "
+  },
+  {
+    "Enumber": "E334",
+    "Name": "Tartaric acid (L-(+))",
+    "Description": "Acidity regulator, adds flavor, raising agent, keeps texture stable",
+    "Usage": "Sugar production, confectionary, winemaking"
+  },
+  {
+    "Enumber": "E335",
+    "Name": "Sodium tartrates",
+    "Description": "Acidity regulators, keeps texture stables & Sodium salts of tartaric acid (E334)",
+    "Usage": "Binding agent in jellies, margarine, and sausage casings"
+  },
+  {
+    "Enumber": "E336",
+    "Name": "Potassium tartrates",
+    "Description": "Acidity regulators, keeps texture stables, Potassium salts of tartaric acid (E334), Potassium bitartrate = cream of tartar",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E337",
+    "Name": "Sodium potassium tartrates",
+    "Description": "Acidity regulators, keeps texture stables, Double salts of tartaric acid",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E338",
+    "Name": "Phosphoric acid",
+    "Description": "Acid, flavouring",
+    "Usage": "Soft drinks, jams"
+  },
+  {
+    "Enumber": "E339",
+    "Name": "Sodium phosphates",
+    "Description": "Acidity regulator, makes foods thicker, helps mix ingredients, Sodium salt of phosphoric acid (E338)",
+    "Usage": "Found in meat, cheese, and baked products "
+  },
+  {
+    "Enumber": "E340",
+    "Name": "Potassium phosphates",
+    "Description": "Acidity regulator, raising agent, keeps texture stable, Potassium salt of phosphoric acid (E338)",
+    "Usage": "As well as food additive, also used in some potassium supplements "
+  },
+  {
+    "Enumber": "E341",
+    "Name": "Calcium phosphates",
+    "Description": "Anti-caking agent, helps mix ingredients, keeps texture stable, used to control acidity, Calcium salt of phosphoric acid (E338)",
+    "Usage": "Used to prevent lumps in powdered foods, Also used in some nutritional supplements "
+  },
+  {
+    "Enumber": "E343",
+    "Name": "Magnesium phosphates",
+    "Description": "Acidity regulator, anti-caking agent, keeps texture stable",
+    "Usage": "Found in salt substitutes"
+  },
+  {
+    "Enumber": "E350",
+    "Name": "Sodium malate",
+    "Description": "Acidity regulator, adds flavor, Sodium salt of malic acid (E296)",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E351",
+    "Name": "Potassium malate",
+    "Description": "Acidity regulator, antioxidant, adds flavor, Potassium salt of malic acid (E296)",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E352",
+    "Name": "Calcium malate",
+    "Description": "Acidity regulator, adds flavor, thickening agent, Calcium salt of malic acid (E296)",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E353",
+    "Name": "Metatartaric acid",
+    "Description": "Acidity regulator",
+    "Usage": "Commonly found in wine production"
+  },
+  {
+    "Enumber": "E354",
+    "Name": "Calcium tartrate",
+    "Description": "Preservative and used to control acidity, Calcium salt of tartaric acid (E334)",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E355",
+    "Name": "Adipic acid",
+    "Description": "Acidity regulator, flavouring and raising agent, Naturally present in beets and sugar cane",
+    "Usage": "Commonly found in baking powders, fizzy drinks, and drink mixes "
+  },
+  {
+    "Enumber": "E356",
+    "Name": "Sodium adipate",
+    "Description": "Sodium salt of adipic acid ",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E357",
+    "Name": "Potassium adipate",
+    "Description": "Potassium salt of adipic acid ",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E363",
+    "Name": "Succinic acid",
+    "Description": "Acidity regulator, flavouring, fragrance",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E380",
+    "Name": "Triammonium citrate",
+    "Description": "Acid regulator, buffer, helps mix ingredients, Ammonium salt of citric acid",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E385",
+    "Name": "Calcium disodium ethylene diamine tetra-acetate; calcium disodium EDTA",
+    "Description": "Preservative, antioxidant ",
+    "Usage": "Canned foods, soft drinks"
+  },
+  {
+    "Enumber": "E422",
+    "Name": "Glycerol",
+    "Description": "Flavour enhancer, sweetener, used to add color, helps keep food fresh",
+    "Usage": "Widely used in baked goods and confectionary "
+  },
+  {
+    "Enumber": "E423",
+    "Name": "Octenyl succinic acid modified gum arabic",
+    "Description": "Emulsifier, Chemical modification of gum arabic",
+    "Usage": "Processed meat, cheeses, jam, snacks, chewing gum"
+  },
+  {
+    "Enumber": "E450",
+    "Name": "Diphosphates",
+    "Description": "Acid regulators, helps mix ingredientss, Salts of sodium / potassium / calcium with phosphates",
+    "Usage": "Many different products "
+  },
+  {
+    "Enumber": "E451",
+    "Name": "Triphosphates",
+    "Description": "Preservatives, helps mix ingredientss, keeps texture stables, Potassium and sodium triphosphates",
+    "Usage": "Many different products"
+  },
+  {
+    "Enumber": "E452",
+    "Name": "Polyphosphates",
+    "Description": "Stabilisers, helps mix ingredientss, Polyphosphates of potassium, calcium, ammonium, sodium",
+    "Usage": "Many different products "
+  },
+  {
+    "Enumber": "E459",
+    "Name": "Beta-cyclodextrin; betadex",
+    "Description": "Emulsifier, adds flavor",
+    "Usage": "Dry mixes (eg, for baking, soups, flavoured coffee or tea), cereal, other processed products "
+  },
+  {
+    "Enumber": "E499",
+    "Name": "Stigmasterol-rich plant sterols",
+    "Description": "",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E500",
+    "Name": "Sodium carbonate",
+    "Description": "Acidity regulator, anti-caking agent, raising agent, keeps texture stable",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E501",
+    "Name": "Potassium carbonate",
+    "Description": "Acidity regulator, keeps texture stable, raising agent",
+    "Usage": "Baking, Can be used in potassium supplements "
+  },
+  {
+    "Enumber": "E503",
+    "Name": "Ammonium carbonate",
+    "Description": "Acidity regulator, keeps texture stable, leavening agent",
+    "Usage": "Flat-baked goods (eg, crackers, cookies) "
+  },
+  {
+    "Enumber": "E504",
+    "Name": "Magnesium carbonate",
+    "Description": "Acidity regulator, used to add color, anti-caking agent; May have laxative effect in high concentrations",
+    "Usage": "Salts, icing sugar, dry mixes, Dietary supplements (source of magnesium) "
+  },
+  {
+    "Enumber": "E507",
+    "Name": "Hydrochloric acid",
+    "Description": "Acidity regulator",
+    "Usage": "Syrup production"
+  },
+  {
+    "Enumber": "E508",
+    "Name": "Potassium chloride",
+    "Description": "Flavouring agent, makes foods thicker",
+    "Usage": "Sodium-free salt alternative"
+  },
+  {
+    "Enumber": "E509",
+    "Name": "Calcium chloride",
+    "Description": "Preservative, keeps texture stable, firming agent, anti-caking agent, acid regulator",
+    "Usage": "Various food products, also used in some calcium supplements "
+  },
+  {
+    "Enumber": "E511",
+    "Name": "Magnesium chloride",
+    "Description": "Stabiliser, firming agent",
+    "Usage": "Tofu preparation from soy milk "
+  },
+  {
+    "Enumber": "E512",
+    "Name": "Stannous chloride",
+    "Description": "Antioxidant, colour retention agent",
+    "Usage": "Canned and bottled foods"
+  },
+  {
+    "Enumber": "E513",
+    "Name": "Sulphuric acid",
+    "Description": "Acidity regulator",
+    "Usage": "Beer preparation and dairy products"
+  },
+  {
+    "Enumber": "E514",
+    "Name": "Sodium sulphate",
+    "Description": "Acidity regulator, anti-caking agent, keeps texture stable, Sodium salt of sulphuric acid",
+    "Usage": "Beer, biscuits, confectionary, chewing gum"
+  },
+  {
+    "Enumber": "E515",
+    "Name": "Potassium sulphate",
+    "Description": "Acid regulator, anti-caking agent, Potassium salt of sulphuric acid",
+    "Usage": "Salt substitute, Beer production"
+  },
+  {
+    "Enumber": "E516",
+    "Name": "Calcium sulphate",
+    "Description": "Buffer, firming agent, Calcium salt of sulphuric acid",
+    "Usage": "Soy products, tofu"
+  },
+  {
+    "Enumber": "E517",
+    "Name": "Ammonium sulphate",
+    "Description": "Acidity regulator, Ammonium salt of sulphuric acid",
+    "Usage": "Commonly found in dough, baked products "
+  },
+  {
+    "Enumber": "E520",
+    "Name": "Aluminium sulphate",
+    "Description": "Aluminium salt of sulphuric acid",
+    "Usage": "Beer brewing"
+  },
+  {
+    "Enumber": "E521",
+    "Name": "Aluminium sodium sulphate",
+    "Description": "Acidity regulator, bleaching agent",
+    "Usage": "Flour, cheese, confectionary"
+  },
+  {
+    "Enumber": "E522",
+    "Name": "Aluminium potassium sulphate",
+    "Description": "Acidity regulator, raising agent",
+    "Usage": "Baking products"
+  },
+  {
+    "Enumber": "E523",
+    "Name": "Aluminium ammonium sulphate",
+    "Description": "Acidity regulator, keeps texture stable",
+    "Usage": "Baking products"
+  },
+  {
+    "Enumber": "E524",
+    "Name": "Sodium hydroxide",
+    "Description": "Acidity regulator",
+    "Usage": "Baking, and chocolate, cocoa, fruit, and olive processing"
+  },
+  {
+    "Enumber": "E525",
+    "Name": "Potassium hydroxide",
+    "Description": "Acidity regulator, keeps texture stable, thickening agent",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E526",
+    "Name": "Calcium hydroxide",
+    "Description": "Acidity regulator, helps keep food fresh",
+    "Usage": "Beer production, Pretzel glazing Vegetable processing "
+  },
+  {
+    "Enumber": "E527",
+    "Name": "Ammonium hydroxide",
+    "Description": "Acidity regulator",
+    "Usage": "Baked goods, Confectionary, Puddings"
+  },
+  {
+    "Enumber": "E528",
+    "Name": "Magnesium hydroxide",
+    "Description": "Anti-caking agent, used to control acidity",
+    "Usage": "Cheese, canned vegetables"
+  },
+  {
+    "Enumber": "E529",
+    "Name": "Calcium oxide (quicklime)",
+    "Description": "Acidity regulator, raising agent",
+    "Usage": "Sugar production,, Baked products"
+  },
+  {
+    "Enumber": "E530",
+    "Name": "Magnesium oxide",
+    "Description": "Anti-caking agent, used to control acidity",
+    "Usage": "Manufacture of powdered goods (eg, milk powder), Also used for relief of heartburn / reflux "
+  },
+  {
+    "Enumber": "E535",
+    "Name": "Sodium ferrocyanide",
+    "Description": "Anti-caking agent",
+    "Usage": "Also found in table salt"
+  },
+  {
+    "Enumber": "E536",
+    "Name": "Potassium ferrocyanide",
+    "Description": "Anti-caking agent",
+    "Usage": "In table salts"
+  },
+  {
+    "Enumber": "E538",
+    "Name": "Calcium ferrocyanide",
+    "Description": "Anti-caking agent",
+    "Usage": "In table salts"
+  },
+  {
+    "Enumber": "E541",
+    "Name": "Sodium aluminium phosphate",
+    "Description": "Synthetically prepared raising agent",
+    "Usage": "Self-raising flour"
+  },
+  {
+    "Enumber": "E551",
+    "Name": "Silicon dioxide (Silica)",
+    "Description": "Derived from sand Used as an anti-caking agent",
+    "Usage": "Potato snacks"
+  },
+  {
+    "Enumber": "E552",
+    "Name": "Calcium silicate",
+    "Description": "Salt of silicon dioxide with similar functions, Also used as a glazing agent, acid regulator, releasing agent, and coating agent",
+    "Usage": "Found in chewing gum, meat pies, salt, and confectionery"
+  },
+  {
+    "Enumber": "E553a",
+    "Name": "(i) Magnesium silicate, (ii) Magnesium trisilicate",
+    "Description": "Salt of silicon dioxide with similar functions",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E553b",
+    "Name": "Talc",
+    "Description": "Anti-caking agent, bulking agent, glazing agent",
+    "Usage": "Thickener"
+  },
+  {
+    "Enumber": "E554",
+    "Name": "Sodium aluminium silicate",
+    "Description": "Anti-caking agent",
+    "Usage": "Commonly found in salt and sugar products, egg mixes, flours, dried milk substitutes"
+  },
+  {
+    "Enumber": "E555",
+    "Name": "Potassium aluminium silicate",
+    "Description": "Anti-caking agent",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E570",
+    "Name": "Fatty acids; stearic acid",
+    "Description": "Anti-caking agent, adds flavor",
+    "Usage": "Baked products, chewing gum, confectionary, artificial sweeteners "
+  },
+  {
+    "Enumber": "E574",
+    "Name": "Gluconic acid",
+    "Description": "Acidity regulator",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E575",
+    "Name": "Glucono delta-lactone (GDL); gluconolactone",
+    "Description": "Acidity regulator, helps keep food fresh, raising agent",
+    "Usage": "Tofu making, Baked, meat, and cheese products"
+  },
+  {
+    "Enumber": "E576",
+    "Name": "Sodium gluconate",
+    "Description": "Stabiliser, makes foods thicker, sequestrant, Sodium salt of gluconic acid",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E577",
+    "Name": "Potassium gluconate",
+    "Description": "Sequestrant, keeps texture stable, anti-caking, thickening agent,, Potassium salt of gluconic acid",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E578",
+    "Name": "Calcium gluconate",
+    "Description": "Anti-caking agent, makes foods thicker, keeps texture stable, used to control acidity, Calcium salt of gluconic acid",
+    "Usage": "Health products eg, bodybuilding formulas, sports drinks, Cereal; Beverages, Dietary supplements (calcium source) "
+  },
+  {
+    "Enumber": "E579",
+    "Name": "Ferrous gluconate",
+    "Description": "Colouring agent, nutritional supplement",
+    "Usage": "Processing black olives, Iron source (food fortification)"
+  },
+  {
+    "Enumber": "E585",
+    "Name": "Ferrous lactate",
+    "Description": "Acidity regulator, flavouring, colour retention agent, nutritional supplement",
+    "Usage": "Iron source (food fortification)"
+  },
+  {
+    "Enumber": "E620",
+    "Name": "L-Glutamic acid",
+    "Description": "Naturally occurring amino acid obtained from protein but generally manufactured by bacterial fermentation of carbohydrates",
+    "Usage": "Used as a nutrient to increase protein values , Used as a flavour enhancer and salt substitute"
+  },
+  {
+    "Enumber": "E621",
+    "Name": "Monosodium glutamate (MSG)",
+    "Description": "Present naturally in seaweed but generally prepared chemically from sugar beet, Flavour enhancer of protein rich foods",
+    "Usage": "Meat, Chinese foods, packet convenience meals and snacks (eg, soup), dried products, crisps, and potato snacks "
+  },
+  {
+    "Enumber": "E622",
+    "Name": "Monopotassium glutamate",
+    "Description": "Similar to monosodium glutamate",
+    "Usage": "Similar to E621"
+  },
+  {
+    "Enumber": "E623",
+    "Name": "Calcium glutamate",
+    "Description": "Similar to monosodium glutamate",
+    "Usage": "Similar to E621 "
+  },
+  {
+    "Enumber": "E624",
+    "Name": "Monoammonium glutamate",
+    "Description": "Ammonium salt of glutamic acid",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E625",
+    "Name": "Magnesium diglutamate",
+    "Description": "More expensive additive",
+    "Usage": "May be found in snacks, packet soups, and instant noodles"
+  },
+  {
+    "Enumber": "E626",
+    "Name": "Guanylic acid",
+    "Description": "More expensive additive",
+    "Usage": "May be found in snacks, packet soups, and instant noodles"
+  },
+  {
+    "Enumber": "E627",
+    "Name": "Disodium guanylate",
+    "Description": "Occurs naturally in sardines and yeast extract but generally manufactured synthetically, Used as a flavour enhancer",
+    "Usage": "Often added to crisps and other potato snacks, gravy granules and pre-cooked dried rice "
+  },
+  {
+    "Enumber": "E628",
+    "Name": "Dipotassium guanylate",
+    "Description": "Flavour enhancer, Potassium salt of guanylic acid",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E629",
+    "Name": "Calcium guanylate",
+    "Description": "Flavour enhancer, Calcium salt of guanylic acid",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E630",
+    "Name": "Inosinic acid",
+    "Description": "Flavour enhancer",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E631",
+    "Name": "Disodium inosinate",
+    "Description": "Made from sardines and meat extract",
+    "Usage": "Similar to E627 "
+  },
+  {
+    "Enumber": "E632",
+    "Name": "Dipotassium inosinate",
+    "Description": "Flavour enhancer",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E633",
+    "Name": "Calcium inosinate",
+    "Description": "Flavour enhancer",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E634",
+    "Name": "Calcium 5'-ribonucleotides",
+    "Description": "Flavour enhancer ",
+    "Usage": "Mainly used in low sodium (low salt) products"
+  },
+  {
+    "Enumber": "E635",
+    "Name": "Sodium-5-ribonucleotide",
+    "Description": "Mixture of E627 and E631",
+    "Usage": "Also found in crisps, potato snacks, and packet soups "
+  },
+  {
+    "Enumber": "E640",
+    "Name": "Glycine and its sodium salt",
+    "Description": "Glycine is an amino acid, Used as flavour enhancer and sweetener",
+    "Usage": "Bread enhancer, Also used in food supplements and protein drinks "
+  },
+  {
+    "Enumber": "E641",
+    "Name": "L-leucine",
+    "Description": "Flavouring agent, Amino acid",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E650",
+    "Name": "Zinc acetate",
+    "Description": "Flavour enhancer",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E900",
+    "Name": "Dimethylpolysiloxane",
+    "Description": "Anti-foaming agent",
+    "Usage": "Fats and oils"
+  },
+  {
+    "Enumber": "E901",
+    "Name": "Beeswax, white and yellow",
+    "Description": "Glazing agent",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E902",
+    "Name": "Candelilla wax",
+    "Description": "Glazing agent, occlusive",
+    "Usage": "Chewing gums, Surface finishing agent"
+  },
+  {
+    "Enumber": "E903",
+    "Name": "Carnauba wax",
+    "Description": "Glazing agent",
+    "Usage": "Confectionary, fruit, nuts, chocolate, chewing gum, baked goods, and coffee beans"
+  },
+  {
+    "Enumber": "E904",
+    "Name": "Shellac",
+    "Description": "Glazing agent. Shellac, natural polymer derived from lac beetles !",
+    "Usage": "Fruit, candy coating"
+  },
+  {
+    "Enumber": "E905",
+    "Name": "Microcrystalline wax",
+    "Description": "Glazing agent",
+    "Usage": "Fruit, candy, cheese, chewing gum"
+  },
+  {
+    "Enumber": "E907",
+    "Name": "Hydrogenated poly-1-decene",
+    "Description": "hydrogenated poly\u20101\u2010decene, E 907, food additive, safety, risk assessment, dietary exposure, acceptable daily intake",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E913",
+    "Name": "lanolin",
+    "Description": "lanolin, a wax from sheep excreted by the skin of sheep and extracted from the wool",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E914",
+    "Name": "Oxidised polyethylene wax",
+    "Description": "Glazing / coating agent",
+    "Usage": "Fruit"
+  },
+  {
+    "Enumber": "E920",
+    "Name": "L-cysteine",
+    "Description": "Amino acid",
+    "Usage": "Bread enhancer"
+  },
+  {
+    "Enumber": "E927b",
+    "Name": "Carbamide",
+    "Description": "",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E938",
+    "Name": "Argon",
+    "Description": "Packaging gas",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E939",
+    "Name": "Helium",
+    "Description": "Packaging gas",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E941",
+    "Name": "Nitrogen",
+    "Description": "Packaging gas",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E942",
+    "Name": "Nitrous oxide",
+    "Description": "Aerosol spray propellant",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E943a",
+    "Name": "Butane",
+    "Description": "Aerosol spray propellant",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E943b",
+    "Name": "Iso-butane",
+    "Description": "Aerosol spray propellant",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E944",
+    "Name": "Propane",
+    "Description": "Aerosol spray propellant",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E948",
+    "Name": "Oxygen",
+    "Description": "Packaging gas",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E949",
+    "Name": "Hydrogen",
+    "Description": "Packaging gas",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E999",
+    "Name": "Quillaia extract",
+    "Description": "Stabiliser, surfactant",
+    "Usage": "Humectant in baked goods, Soft drink foaming agent"
+  },
+  {
+    "Enumber": "E1105",
+    "Name": "lysozyme",
+    "Description": "An enzyme, that is a normal constituent of tears, saliva, blood and (human) milk. Commercially prepared from chicken eggs or by bacteria.",
+    "Usage": "Infant nutrition, pharmaceutical preparations, Lysozyme is a protein and all proteins may cause allergic reactions. Should be avoided by vegans."
+  },
+  {
+    "Enumber": "E1200",
+    "Name": "Polydextrose",
+    "Description": "Naturally occurring sugar in grapes and corn",
+    "Usage": "Confectionery, cakes, biscuits, puddings, desserts, soft drinks, and convenience foods "
+  },
+  {
+    "Enumber": "E1201",
+    "Name": "Polyvinylpyrrolidone (PVP)",
+    "Description": "Stabiliser, helps mix ingredients, makes foods thicker",
+    "Usage": "Food additive and used in wine production "
+  },
+  {
+    "Enumber": "E1202",
+    "Name": "Polyvinylpolypyrrolidone (PVPP)",
+    "Description": "",
+    "Usage": "Clarifying agent for beer, wine, and vinegar"
+  },
+  {
+    "Enumber": "E1203 ",
+    "Name": "Polyvinyl alcohol",
+    "Description": "Thickener, glazing agent, Natural polysaccharide",
+    "Usage": "Powdered desserts, confectionary, food supplements"
+  },
+  {
+    "Enumber": "E1204 ",
+    "Name": "Pullulan",
+    "Description": "",
+    "Usage": "Edible decorating film in bakery products and confectionary, Thickener in sauces and dressings"
+  },
+  {
+    "Enumber": "E1205",
+    "Name": "Basic methacrylate copolymer",
+    "Description": "Glazing/coating agent",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E1206",
+    "Name": "Neutral methacrylate copolymer",
+    "Description": "Glazing agent",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E1207",
+    "Name": "Anionic methacrylate copolymer",
+    "Description": "Glazing/coating agent",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E1208",
+    "Name": "Polyvinylpyrrolidone-vinyl acetate copolymer",
+    "Description": "",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E1209",
+    "Name": "Polyvinyl alcohol-polyethylene glycol-graft copolymer; PVA-PEG graft copolymer",
+    "Description": "Glazing agent, keeps texture stable",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E1400-1414",
+    "Name": "Starches",
+    "Description": "Generally of maize, corn, potato, wheat, or tapioca in origin, Used to modify texture and stability",
+    "Usage": "Sauces, chutneys, confectionery, desserts, meat, fish, dairy, and baked products"
+  },
+  {
+    "Enumber": "E1404",
+    "Name": "Oxidised starch",
+    "Description": "",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E1410",
+    "Name": "Monostarch phosphate",
+    "Description": "Anti-caking agent, makes foods thicker, keeps texture stable, helps mix ingredients, glazing agent",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E1412",
+    "Name": "Distarch phosphate",
+    "Description": "Modified starch",
+    "Usage": "Fruit gels and cream fillings, baked goods"
+  },
+  {
+    "Enumber": "E1413",
+    "Name": "Phosphated distarch phosphate",
+    "Description": "Stabiliser while freezing / thawing",
+    "Usage": "Soups, sauces, frozen pies etc."
+  },
+  {
+    "Enumber": "E1414",
+    "Name": "Acetylated distarch phosphate",
+    "Description": "Stabiliser, helps mix ingredients",
+    "Usage": "Oily foods"
+  },
+  {
+    "Enumber": "E1420",
+    "Name": "Acetylated starch",
+    "Description": "Modified starch",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E1422",
+    "Name": "Acetylated distarch adipate",
+    "Description": "Thickening agent",
+    "Usage": "Sauces"
+  },
+  {
+    "Enumber": "E1440",
+    "Name": "Hydroxyl propyl starch",
+    "Description": "Modified starch",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E1442",
+    "Name": "Hydroxy propyl distarch phosphate",
+    "Description": "Modified starch",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E1450",
+    "Name": "Starch sodium octenyl succinate",
+    "Description": "Emulsifier, Modified starch",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E1451",
+    "Name": "Acetylated oxidised starch",
+    "Description": "",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E1452",
+    "Name": "Starch aluminium Octenyl succinate",
+    "Description": "Anti-caking, thickening, emulsifying, and glazing roles",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E1505",
+    "Name": "Triethyl citrate",
+    "Description": "Stabiliser, antioxidant, glazing agent, Ester of citric acid",
+    "Usage": "Stabilises "
+  },
+  {
+    "Enumber": "E1517",
+    "Name": "Glyceryl diacetate; diacetin",
+    "Description": "Solvent for other additives",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E1518",
+    "Name": "Glyceryl triacetate; triacetin",
+    "Description": "Humectant, adds flavor",
+    "Usage": ""
+  },
+  {
+    "Enumber": "E1520",
+    "Name": "Propan-1,2-diol; propylene glycol",
+    "Description": "Synthetic carrier for extracts, flavours, and spices, Functions as a keeps texture stable and humectant",
+    "Usage": "Miscellaneous foods "
+  },
+  {
+    "Enumber": "E1521",
+    "Name": "Polyethylene glycol (PEG)",
+    "Description": "Colouring agent, helps mix ingredients, flavouring, humectant ",
+    "Usage": ""
+  }
+]

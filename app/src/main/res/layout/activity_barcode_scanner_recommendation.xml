@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Barcode scanner view (e.g., using ZXing or ML Kit) -->
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/scanner_recommendation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:padding="8dp">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/food_calorie_float"
+        app:elevation="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="56dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/icon_add"
+        app:backgroundTint="@color/green"
+        android:contentDescription="add"
+        app:tint="@color/white"
+        app:maxImageSize="30dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/food_calorie_edit"
+        app:elevation="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="56dp"
+        android:layout_marginEnd="100dp"
+        android:src="@drawable/icon_edit"
+        app:backgroundTint="@color/green"
+        android:contentDescription="edit"
+        app:tint="@color/white"
+        app:maxImageSize="30dp"
+        android:visibility= "invisible"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/food_calorie_clear"
+        app:elevation="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="138dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/icon_clear_all"
+        app:backgroundTint="@color/green"
+        android:contentDescription="clear"
+        app:tint="@color/white"
+        app:maxImageSize="30dp"
+        android:visibility= "invisible"/>
+
+    <!-- EditText with a title and border -->
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_food_calories"
+        android:orientation="vertical">
+
+        <!-- RecyclerView below the Buttons -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewCalories"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:fontFamily="@font/montserrat_medium"
+            android:paddingBottom="2dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

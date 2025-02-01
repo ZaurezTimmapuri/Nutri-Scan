@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CodeScanner" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:statusBarColor" >#000000</item>
+        <item name="android:forceDarkAllowed">false</item>
+
+    </style>
+
+    <style name="Theme.CodeScanner" parent="Base.Theme.CodeScanner" >
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:statusBarColor" >#000000</item>
+        <item name="android:forceDarkAllowed">false</item>
+
+    </style>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+</resources>

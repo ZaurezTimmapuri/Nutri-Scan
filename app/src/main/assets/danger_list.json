@@ -1,0 +1,648 @@
+[
+  {
+    "Enumber": "E102",
+    "Name": "Tartrazine (food color)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E104",
+    "Name": "Quinoline Yellow (food color)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E107",
+    "Name": "Yellow 2G (food color)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E110",
+    "Name": "Sunset Yellow (Yellow food color #6)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E120",
+    "Name": "Carmines, Cochineal (food color)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E122",
+    "Name": "Azorubine, Carmoisine (food color)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E123",
+    "Name": "Amaranth (Red food color #2)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E124",
+    "Name": "Ponceau, Brilliant Scarlet (food color)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E127",
+    "Name": "Erythrosine (Red food color #2)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E128",
+    "Name": "Red 2G (Red food color)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E129",
+    "Name": "Allura Red AC (food color)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E131",
+    "Name": "Patent Blue (food color)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E132",
+    "Name": "Indigotine, Indigo Carmine (food color)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E133",
+    "Name": "Brilliant Blue (food color)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E142",
+    "Name": "Acid Brilliant Green, Green S, Food Green (food color)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E143",
+    "Name": "Fast Green (food color)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E150",
+    "Name": "Caramel (food color)",
+    "HyperActivity": "H",
+    "Asthma": "",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E151",
+    "Name": "Activated Vegetable Carbons, Brilliant Black (food color)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E154",
+    "Name": "Food Brown, Kipper Brown, Brown FK (food color)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+  "Enumber": "E155",
+  "Name": "Chocolate Brown HT, Brown HT (food color)",
+  "HyperActivity": "H",
+  "Asthma": "A",
+  "Cancer": "C"
+  },
+  {
+    "Enumber": "E160b",
+    "Name": "Bixin, Norbixin, Annatto Extracts (yellow, red to brown natural colors)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E171",
+    "Name": "Titanium Dioxide, TiO2 (to give foods an opaque color).",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E173",
+    "Name": "Aluminium (preservatives)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E180",
+    "Name": "Latol Rubine, Pigment Rubine (preservatives)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E200",
+    "Name": "Potassium & Calcium Sorbates ,Sorbic Acid (preservatives)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E202",
+    "Name": "Potassium & Calcium Sorbates ,Sorbic Acid (preservatives)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E203",
+    "Name": "Potassium & Calcium Sorbates ,Sorbic Acid (preservatives)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E210",
+    "Name": "Benzoic Acid (preservatives)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E211",
+    "Name": "Sodium Benzoate (preservatives)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E212",
+    "Name": "Potassium Benzoate (preservatives)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E213",
+    "Name": "Calcium Benzoate (preservatives)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E214",
+    "Name": "Ethyl Para Hydroxybenzonate (preservatives)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E215",
+    "Name": "Sodium Ethyl Para Hydroxybenzonate (preservatives)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E216",
+    "Name": "Propyl P Hydroxybenzonate, Propylparaben (preservatives)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E217",
+    "Name": "Sodium Propyl P Hydroxybenzonate (preservatives)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E220",
+    "Name": "Sulphur Dioxide also Sulfur dioxide (preservatives)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E221",
+    "Name": "Sodium Sulfite or Sodium Sulphite (preservatives)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E222",
+    "Name": "Sodium Bisulfite or Sodium Bisulphite (preservatives)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E223",
+    "Name": "Sodium Metabisulfite or Sodium Metabisulphite (preservatives)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E224",
+    "Name": "Potassium Metabisulphite or Potassium Metabisulfite (preservatives)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E225",
+    "Name": "Potassium Sulfite or Potassium Sulphite (preservatives)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E226",
+    "Name": "Calcium Sulfite or Calcium Sulphite (preservatives)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E227",
+    "Name": "Calcium Hydrogen Sulphite or Calcium Hydrogen Sulfite (preservatives)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E228",
+    "Name": "Potassium Bisulfite, Potassium Hydrogen Sulfite or Potassium Bisulphite, Potassium Hydrogen Sulphite (preservatives)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E230",
+    "Name": "Diphenyl, Biphenyl (preservatives)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E231",
+    "Name": "Orthophenyl Phenol (preservatives)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E236",
+    "Name": "Formic Acid (preservative)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E239",
+    "Name": "Hexamine, Hexamethylene Tetramine (preservatives)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E249",
+    "Name": "Potassium Nitrate (preservative)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E250",
+    "Name": "Sodium Nitrite (preservative)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E251",
+    "Name": "Sodium Nitrate (preservative)",
+    "HyperActivity": "H",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E252",
+    "Name": "Potassium Nitrate (preservative)",
+    "HyperActivity": "H",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E260",
+    "Name": "Acetic Acid, Glacial (preservatives)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E280",
+    "Name": "Calcium or Potassium or Sodium Propionates, Propionic Acid (preservatives)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E281",
+    "Name": "Calcium or Potassium or Sodium Propionates, Propionic Acid (preservatives)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E282",
+    "Name": "Calcium or Potassium or Sodium Propionates, Propionic Acid (preservatives)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E283",
+    "Name": "Calcium or Potassium or Sodium Propionates, Propionic Acid (preservatives)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E310",
+    "Name": "Propyl Gallate (Synthetic Antioxidant)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E311",
+    "Name": "Octyl Gallate (Synthetic Antioxidant)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E312",
+    "Name": "Dodecyl Gallate (Synthetic Antioxidant)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E319",
+    "Name": "TBHQ, Tert Butylhydroquinone (Synthetic Antioxidants)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E330",
+    "Name": "Citric Acid (NOT DANGEROUS if naturally occurring e330 & 330 citric acid additive  but other can contain sulfites and mold.)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E407",
+    "Name": "Carrageenan (Thickening & Stabilizing Agent)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E413",
+    "Name": "Tragacanth (thickener & Emulsifier)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E414",
+    "Name": "Acacia Gum (Food Stabilizer)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E416",
+    "Name": "Karaya Gum (Laxative, Food Thickener & Emulsifier)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E421",
+    "Name": "Mannitol (Artificial Sweetener)",
+    "HyperActivity": "H",
+    "Asthma": "",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E430",
+    "Name": "Polyxyethylene Stearate (Emulsifier)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E431",
+    "Name": "Polyxyl Stearate (Emulsifier)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E435",
+    "Name": "Polyoxyethylene Sorbitan Mono-stearate (Emulsifiers Gelling Stabilisers Thickeners Agents)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E436",
+    "Name": "Polysorbate (Emulsifiers)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E441",
+    "Name": "Gelatine (Food Gelling Agent)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E466",
+    "Name": "Sodium CarboxyMethyl Cellulose",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E507",
+    "Name": "Hydrochloric Acid (Hydrolyzing Enhancer & Gelatin Production)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E518",
+    "Name": "Magnesium Sulphate (Tofu Coagulant)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E536",
+    "Name": "Potassium Ferrocyanide (Anti Caking Agent)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E553 & E553b",
+    "Name": "Talc (Anti Caking, Filling, Softener, Agent)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E625",
+    "Name": "MSG Mono-sodium Glutamate, Glutamate Acid, all Glutamate (Flavour Enhancers). MSG can be referred to by varieties of other names.",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E627",
+    "Name": "Disodium Guanylate (Flavour Enhancers)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E631",
+    "Name": "Disodium Inosinate 5 (Flavour Enhancers)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E903",
+    "Name": "Camauba Wax (used in Chewing Gums, Coating and Glazing Agents)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E905",
+    "Name": "Paraffin and Vaseline, White Mineral Oil (Solvents, Coating and Glazing, Anti Foaming Agents, Lubricant in Chewing Gums)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "=E924",
+    "Name": "Potassium Bromate (Agent used in Bleaching Flour)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E925",
+    "Name": "Chlorine (Agent used in Bleaching Flour, Bread Enhancer and Stabiliser)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E926",
+    "Name": "Chlorine Dioxide (Bleaching Flour and Preservative Agent)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E928",
+    "Name": "Benzoyl Peroxide (Bleaching Flour and Bread enhancer Agent)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E950",
+    "Name": "Potassium Acesulphame (Sweetener)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E951",
+    "Name": "Aspartame (Sweetener)",
+    "HyperActivity": "H",
+    "Asthma": "A",
+    "Cancer": ""
+  },
+  {
+    "Enumber": "E952",
+    "Name": "Cyclamate and Cyclamic Acid (Sweeteners)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E954",
+    "Name": "Saccharine (Sweetener)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E1202",
+    "Name": "Insoluble Polyvinylpyrrolidone Insoluble (Stabiliser and Clarifying Agent added to Wine, Beer, Pharmaceuticals)",
+    "HyperActivity": "",
+    "Asthma": "",
+    "Cancer": "C"
+  },
+  {
+    "Enumber": "E1403",
+    "Name": "Bleached Starch (Thickener and Stabiliser)",
+    "HyperActivity": "",
+    "Asthma": "A",
+    "Cancer": ""
+  }
+
+
+]

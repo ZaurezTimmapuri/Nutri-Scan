@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#CCCCCC</color>
+
+    <color name="green">#2eb774</color>
+    <color name="red">#FF5757</color>
+    <color name="yellow">#FFC107</color>
+
+    <color name="negative">#ec0000</color>
+    <color name="positive">#008000</color>
+    <color name="neutral">#808080</color>
+    <color name="moderate">#ec5300</color>
+
+    <color name="status_bar_color_white">#FFFFFFFF</color>
+    <color name="status_bar_color_green">#2eb774</color>
+    <color name="status_bar_color_red">#FF5757</color>
+
+    <color name="shimmer_color">#DDDDDD</color>
+</resources>
