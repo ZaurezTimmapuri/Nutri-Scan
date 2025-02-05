@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_margin="16dp"
@@ -16,12 +17,13 @@
         android:scaleType="centerInside"
         android:src="@drawable/icon_dieto" />
 
-    <ProgressBar
-        android:id="@+id/loadingProgress"
-        android:layout_width="wrap_content"
-        android:indeterminateTint="@color/green"
-        android:layout_height="wrap_content"
-        android:indeterminate="true"
-        android:padding="12dp" />
+    <!-- Replace ProgressBar with LottieAnimationView -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loadingAnimation"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/ai_loading_animation" /> <!-- Add your Lottie JSON file here -->
 
 </LinearLayout>

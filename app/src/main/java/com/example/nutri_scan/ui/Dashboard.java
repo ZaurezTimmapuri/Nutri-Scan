@@ -8,16 +8,22 @@ import androidx.viewpager2.widget.ViewPager2;
 
 import android.annotation.SuppressLint;
 import android.content.res.Configuration;
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.Looper;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -32,6 +38,14 @@ import java.util.Calendar;
 
 public class Dashboard extends AppCompatActivity {
     ActivityDashboardBinding binding;
+
+    private SensorManager sensorManager;
+    private Sensor gyroscopeSensor;
+    private ImageView imageView;
+
+    private float xRotation = 0f;
+    private float yRotation = 0f;
+    private static final float ROTATION_SENSITIVITY = 0.5f;
 
     Calendar calendar = Calendar.getInstance();
     int hour = calendar.get(Calendar.HOUR_OF_DAY);
@@ -140,7 +154,19 @@ public class Dashboard extends AppCompatActivity {
             startActivity(intent);
         });
 
-    }
+
+        ///For gyro-image
+
+        imageView = findViewById(R.id.Gyro_imageView);
+
+        sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
+        if (sensorManager != null) {
+            gyroscopeSensor = sensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
+        }
+
+}
+
+
 
     @SuppressLint("ClickableViewAccessibility")
     private void setupImageSlider() {
@@ -187,12 +213,20 @@ public class Dashboard extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
         sliderHandler.removeCallbacks(sliderRunnable);
+
+        if (sensorManager != null) {
+            sensorManager.unregisterListener(sensorEventListener);
+        }
     }
 
     @Override
     protected void onResume() {
         super.onResume();
         sliderHandler.postDelayed(sliderRunnable, 3000);
+
+        if (gyroscopeSensor != null) {
+            sensorManager.registerListener(sensorEventListener, gyroscopeSensor, SensorManager.SENSOR_DELAY_NORMAL);
+        }
     }
 
 
@@ -256,6 +290,40 @@ public class Dashboard extends AppCompatActivity {
         }
 
     }
+
+    //For gyro_image
+
+    private SensorEventListener sensorEventListener = new SensorEventListener() {
+        private static final float ROTATION_SENSITIVITY = 0.5f;
+
+        @Override
+        public void onSensorChanged(SensorEvent event) {
+            if (event.sensor.getType() == Sensor.TYPE_GYROSCOPE) {
+                // Gyroscope values: rotation around x, y, and z axes
+                float gyroX = event.values[0];
+                float gyroY = event.values[1];
+
+                // Update rotation values
+                xRotation -= gyroX * ROTATION_SENSITIVITY;
+                yRotation -= gyroY * ROTATION_SENSITIVITY;
+
+                // Limit the rotation to prevent extreme movements
+                xRotation = Math.max(-30, Math.min(30, xRotation));
+                yRotation = Math.max(-30, Math.min(30, yRotation));
+
+                // Apply translation to the image view on the main thread
+                runOnUiThread(() -> {
+                    imageView.setTranslationX(yRotation * 10); // Horizontal movement
+                    imageView.setTranslationY(xRotation * 10); // Vertical movement
+                });
+            }
+        }
+
+        @Override
+        public void onAccuracyChanged(Sensor sensor, int accuracy) {
+            // Not needed for this implementation, but required by SensorEventListener
+        }
+    };
 
 
 }

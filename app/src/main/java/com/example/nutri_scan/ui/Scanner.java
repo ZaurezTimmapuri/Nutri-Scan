@@ -91,6 +91,9 @@ public class Scanner extends AppCompatActivity {
     private Button add_product;
     private ImageView score_icon;
 
+    private String Product_name;
+    private String Product_brand;
+
     private String description;
     private int sodiumScore;
     private int energyScore; //Calories
@@ -141,6 +144,7 @@ public class Scanner extends AppCompatActivity {
         mCodeScanner = new CodeScanner(this, scannerView);
 
         EditText editTextProductInfo = findViewById(R.id.editTextProductInfo);
+        EditText AskDieto = findViewById(R.id.Askdieto);
 
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA)
                 != PackageManager.PERMISSION_GRANTED) {
@@ -172,6 +176,16 @@ public class Scanner extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Scanner.this, AddProduct.class);
                 onBarcodeScanned(decoded_result);
+                startActivity(intent);
+            }
+        });
+
+        AskDieto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Scanner.this, Dieto.class);
+                intent.putExtra("EXTRA_PRODUCT_NAME", Product_name);
+                intent.putExtra("EXTRA_PRODUCT_BRAND", Product_brand);
                 startActivity(intent);
             }
         });
@@ -233,6 +247,9 @@ public class Scanner extends AppCompatActivity {
             String imageUrl = dataSnapshot.child("imageUrl").getValue(String.class);
             Integer score = dataSnapshot.child("Score").getValue(Integer.class);
 
+            Product_name = productName;
+            Product_brand = brand;
+
             // Get nutrition data
             DataSnapshot nutritionSnapshot = dataSnapshot.child("Nutrition");
             if (nutritionSnapshot.exists()) {
@@ -249,6 +266,7 @@ public class Scanner extends AppCompatActivity {
                 parseNutrient(nutritionMap, "salt", "Salt", negatives, positives);
                 parseNutrient(nutritionMap, "proteins", "Protein", negatives, positives);
                 parseNutrient(nutritionMap, "fiber", "Fiber", negatives, positives);
+                parseNutrient(nutritionMap, "carbohydrates", "Carbs", negatives, positives);
             }
 
             // Get additives
@@ -382,7 +400,7 @@ public class Scanner extends AppCompatActivity {
                             positives.add(new NutrientItem(icon, displayName, description, formattedValue + " kcal", color));
                             energyScore = 6;
                         } else if (numValue > 252 && numValue < 392) {
-                            description = "Moderately caloric";
+                            description = "Moderate caloric";
                             color = R.color.moderate;
                             negatives.add(new NutrientItem(icon, displayName, description, formattedValue + " kcal", color));
                             energyScore = 3;
@@ -523,6 +541,29 @@ public class Scanner extends AppCompatActivity {
                             fatscore = 0;
                         }
                         break;
+                    case "carbohydrates":
+                        if (numValue == 0) {
+                            description = "No Carbs-keto";
+                            color = R.color.neutral;
+                            positives.add(new NutrientItem(icon, displayName, description, formattedValue + "g", color));
+                        } else if (numValue > 0 && numValue < 10) {
+                            description = "Healthy amounts";
+                            color = R.color.positive;
+                            positives.add(new NutrientItem(icon, displayName, description, formattedValue + "g", color));
+                        } else if (numValue > 10 && numValue < 30) {
+                            description = "Fair amounts";
+                            color = R.color.positive;
+                            positives.add(new NutrientItem(icon, displayName, description, formattedValue + "g", color));
+                        } else if (numValue > 30 && numValue < 50) {
+                            description = "High amounts";
+                            color = R.color.moderate;
+                            negatives.add(new NutrientItem(icon, displayName, description, formattedValue + "g", color));
+                        } else {
+                            description = "Extreme amounts";
+                            color = R.color.negative;
+                            negatives.add(new NutrientItem(icon, displayName, description, formattedValue + "g", color));
+                        }
+                        break;
 
                     default:
                         description = "";
@@ -545,7 +586,7 @@ public class Scanner extends AppCompatActivity {
                 return R.drawable.icon_sodium;
             case "fat_value":                   //not in use
                 return R.drawable.icon_fat;
-            case "carbohydrates":               //not in use
+            case "carbohydrates":
                 return R.drawable.icon_carbs;
             case "saturated-fat":
                 return R.drawable.icon_saturates;
@@ -929,7 +970,9 @@ public class Scanner extends AppCompatActivity {
         String brand = product.has("brands") ? product.get("brands").getAsString() : "N/A";
         String imageUrl = product.has("image_url") ? product.get("image_url").getAsString() : null;
 
-        // Fetch additional fields like _keywords, categories, and ingredients_text_en
+        Product_name = productName;
+        Product_brand = brand;
+                // Fetch additional fields like _keywords, categories, and ingredients_text_en
         List<String> keywords = new ArrayList<>();
         if (product.has("_keywords")) {
             JsonArray keywordsArray = product.getAsJsonArray("_keywords");
@@ -1076,7 +1119,7 @@ public class Scanner extends AppCompatActivity {
                         positivesList.add(new NutrientItem(icon, name, description, formattedValue + " kcal", R.color.positive));
                         energyScore = 6;
                     } else if (value > 252 && value < 392){
-                        description = "moderately caloric";
+                        description = "moderate caloric";
                         negativesList.add(new NutrientItem(icon, name, description, formattedValue + " kcal", R.color.moderate));
                         energyScore = 3;
                     }else if (value >= 1000){
@@ -1215,8 +1258,8 @@ public class Scanner extends AppCompatActivity {
                 return R.drawable.icon_sodium;
 //            case "fat_value":
 //                return R.drawable.icon_fat;
-//            case "carbohydrates":
-//                return R.drawable.icon_carbs;
+            case "carbohydrates":
+                return R.drawable.icon_carbs;
             case "saturated-fat_100g":
                 return R.drawable.icon_saturates;
             case "sugars_100g":

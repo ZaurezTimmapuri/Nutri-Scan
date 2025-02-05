@@ -35,6 +35,11 @@ public class ProductDetailActivity extends AppCompatActivity {
     private RecyclerView positivesRecyclerView;
     private TextView additivesList;
     private LinearLayout hypertensionLayout, diabetesLayout, cholesterolLayout, noooneLayout;
+    private TextView ingredientsList;
+    private LinearLayout ingredientsCardView;
+    private ImageView ingredientsExpandIcon;
+    private ImageView additivesExpandIcon;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,6 +73,11 @@ public class ProductDetailActivity extends AppCompatActivity {
         positivesRecyclerView = findViewById(R.id.positives_recycler_view_recommendation);
         additivesList = findViewById(R.id.additives_list_recommendation);
 
+        ingredientsList = findViewById(R.id.ingredients_list_recommendation);
+
+        ingredientsExpandIcon = findViewById(R.id.ingredients_expand_icon);
+        additivesExpandIcon = findViewById(R.id.additives_expand_icon);
+
         // Add references for Unsuitable For section
         noooneLayout = findViewById(R.id.Noone_layout);
         hypertensionLayout = findViewById(R.id.hypertension_layout);
@@ -75,6 +85,9 @@ public class ProductDetailActivity extends AppCompatActivity {
         cholesterolLayout = findViewById(R.id.cholesterol_layout);
 
         positivesRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        setupExpandCollapse();
+
     }
 
     private void displayProductDetails(Product product) {
@@ -113,9 +126,18 @@ public class ProductDetailActivity extends AppCompatActivity {
         if (product.getAdditives() != null && !product.getAdditives().isEmpty()) {
             String additives = String.join(", ", product.getAdditives());
             additivesList.setText(additives);
+            // Initially hide additives list
+            additivesList.setVisibility(View.GONE);
+            additivesExpandIcon.setImageResource(R.drawable.icon_down_scanner);
         } else {
             additivesList.setText("No additives found.");
+            // Optionally, hide the expand icon if no additives
+            additivesExpandIcon.setVisibility(View.GONE);
         }
+
+        // Display ingredients with initial collapse
+        displayIngredients(product);
+
     }
 
     private void checkUnsuitableConditions(Map<String, String> nutrition) {
@@ -205,6 +227,61 @@ public class ProductDetailActivity extends AppCompatActivity {
         AttributesAdapter adapter = new AttributesAdapter(nutrition);
         recyclerView.setAdapter(adapter);
     }
+
+    private void displayIngredients(Product product) {
+        // Check if ingredients exist and are not empty
+        if (product.getIngredients() != null && !product.getIngredients().isEmpty()) {
+            // Join ingredients with comma and show in the TextView
+            String ingredientsText = String.join(", ", product.getIngredients());
+            ingredientsList.setText(ingredientsText);
+
+            // Initially hide ingredients list
+            ingredientsList.setVisibility(View.GONE);
+            ingredientsExpandIcon.setImageResource(R.drawable.icon_down_scanner);
+
+            // Make sure the ingredients section is visible
+            if (ingredientsCardView != null) {
+                ingredientsCardView.setVisibility(View.VISIBLE);
+            }
+        } else {
+            // Hide ingredients section if no ingredients
+            ingredientsList.setText("No ingredients found.");
+            ingredientsExpandIcon.setVisibility(View.GONE);
+
+            if (ingredientsCardView != null) {
+                ingredientsCardView.setVisibility(View.GONE);
+            }
+        }
+    }
+
+    private void setupExpandCollapse() {
+        // Ingredients expand/collapse
+        ingredientsExpandIcon.setOnClickListener(v -> {
+            if (ingredientsList.getVisibility() == View.GONE) {
+                // Expand ingredients
+                ingredientsList.setVisibility(View.VISIBLE);
+                ingredientsExpandIcon.setImageResource(R.drawable.icon__up_scanner);
+            } else {
+                // Collapse ingredients
+                ingredientsList.setVisibility(View.GONE);
+                ingredientsExpandIcon.setImageResource(R.drawable.icon_down_scanner);
+            }
+        });
+
+        // Additives expand/collapse
+        additivesExpandIcon.setOnClickListener(v -> {
+            if (additivesList.getVisibility() == View.GONE) {
+                // Expand additives
+                additivesList.setVisibility(View.VISIBLE);
+                additivesExpandIcon.setImageResource(R.drawable.icon__up_scanner);
+            } else {
+                // Collapse additives
+                additivesList.setVisibility(View.GONE);
+                additivesExpandIcon.setImageResource(R.drawable.icon_down_scanner);
+            }
+        });
+    }
+
 }
 
 

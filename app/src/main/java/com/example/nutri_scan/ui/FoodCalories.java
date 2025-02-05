@@ -128,7 +128,7 @@ public class FoodCalories extends AppCompatActivity {
                     public void run() {
                         loadingDialog.dismissDialog();
                     }
-                },3200);
+                },4200);
 
             } else {
                 Toast.makeText(FoodCalories.this, "Please enter a food item", Toast.LENGTH_SHORT).show();

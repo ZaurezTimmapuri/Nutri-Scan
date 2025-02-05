@@ -1,5 +1,6 @@
 package com.example.nutri_scan.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.android.volley.AuthFailureError;
@@ -56,6 +57,8 @@ public class Dieto extends AppCompatActivity {
     private static final String API_URL = "https://api-inference.huggingface.co/models/meta-llama/Meta-Llama-3-8B-Instruct";
     private static final String API_TOKEN = BuildConfig.HUGGING_API_KEY;
     private View currentLoadingView;
+    private String productName;
+    private String productBrand;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +68,19 @@ public class Dieto extends AppCompatActivity {
         initializeViews();
         setupStatusBar();
         setupSendButton();
+
+        Intent intent = getIntent();
+        if (intent != null && intent.hasExtra("EXTRA_PRODUCT_NAME")) {
+            productName = intent.getStringExtra("EXTRA_PRODUCT_NAME");
+            productBrand = intent.getStringExtra("EXTRA_PRODUCT_BRAND");
+            if (productName != null && !productName.isEmpty()) {
+                // Automatically ask the user about the product
+                String autoMessage = "Provide a description of the product  " + productName + " by " + productBrand +" and tell me how good is it for me";
+                displayUserMessage(autoMessage);
+                sendToApi(autoMessage, 0);
+                displayLoadingIndicator();
+            }
+        }
 
     }
 

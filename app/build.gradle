@@ -80,4 +80,8 @@ dependencies {
     implementation "androidx.camera:camera-lifecycle:$camerax_version"
     implementation "androidx.camera:camera-view:$camerax_version"
 
+
+    //Loading animation Dieto
+    implementation "com.airbnb.android:lottie:6.1.0"
+
 }
