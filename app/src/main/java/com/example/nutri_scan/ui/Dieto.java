@@ -13,6 +13,7 @@ import com.android.volley.Response;
 import com.android.volley.RetryPolicy;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.HttpHeaderParser;
+import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.JsonRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.nutri_scan.BuildConfig;
@@ -52,9 +53,13 @@ public class Dieto extends AppCompatActivity {
     private LinearLayout chatLayout;
     private EditText messageInput;
     private ImageButton sendButton;
+    private enum ModelType { LLAMA, MISTRAL }
+    private static final ModelType CURRENT_MODEL = ModelType.MISTRAL;
     private ScrollView scrollView;
     private static final int MAX_RETRIES = 3;
-    private static final String API_URL = "https://api-inference.huggingface.co/models/meta-llama/Meta-Llama-3-8B-Instruct";
+    private static final String API_URL = CURRENT_MODEL == ModelType.LLAMA
+            ? "https://api-inference.huggingface.co/models/meta-llama/Meta-Llama-3-8B-Instruct"
+            : "https://router.huggingface.co/hf-inference/models/mistralai/Mistral-7B-Instruct-v0.2/v1/chat/completions";
     private static final String API_TOKEN = BuildConfig.HUGGING_API_KEY;
     private View currentLoadingView;
     private String productName;
@@ -174,27 +179,63 @@ public class Dieto extends AppCompatActivity {
         }
     }
 
+//    private void sendToApi(final String userMessage, final int retryCount) {
+//        RequestQueue queue = Volley.newRequestQueue(this);
+//        queue.add(new CustomJsonArrayRequest(
+//                Request.Method.POST,
+//                API_URL,
+//                createApiPayload(constructPrompt(userMessage)),
+//                response -> handleApiResponse(response, userMessage),
+//                error -> handleApiError(error, userMessage, retryCount)
+//        ));
+//    }
+
     private void sendToApi(final String userMessage, final int retryCount) {
         RequestQueue queue = Volley.newRequestQueue(this);
-        queue.add(new CustomJsonArrayRequest(
-                Request.Method.POST,
-                API_URL,
-                createApiPayload(constructPrompt(userMessage)),
-                response -> handleApiResponse(response, userMessage),
-                error -> handleApiError(error, userMessage, retryCount)
-        ));
+        JSONObject payload;
+
+        if (CURRENT_MODEL == ModelType.LLAMA) {
+            String prompt = constructLlamaPrompt(userMessage);
+            payload = createLlamaPayload(prompt);
+            queue.add(new CustomJsonArrayRequest(
+                    Request.Method.POST,
+                    API_URL,
+                    payload,
+                    response -> handleLlamaResponse(response, userMessage),
+                    error -> handleApiError(error, userMessage, retryCount)
+            ));
+        } else {
+            payload = createMistralPayload(userMessage);
+            JsonObjectRequest mistralRequest = new JsonObjectRequest(
+                    Request.Method.POST,
+                    API_URL,
+                    payload,
+                    response -> handleMistralResponse(response, userMessage),
+                    error -> handleApiError(error, userMessage, retryCount)
+            ) {
+                @Override
+                public Map<String, String> getHeaders() throws AuthFailureError {
+                    Map<String, String> headers = new HashMap<>();
+                    headers.put("Authorization", "Bearer " + API_TOKEN);
+                    headers.put("Content-Type", "application/json");
+                    return headers;
+                }
+            };
+            queue.add(mistralRequest);
+        }
     }
 
-    private String constructPrompt(String userMessage) {
+    private String constructLlamaPrompt(String userMessage) {
         return String.format(Locale.US,
                 "<|begin_of_text|>\n" +
                         "<|start_header_id|>system<|end_header_id|>\n" +
-                        "You are Dieto, an expert nutritionist, dietitian and fitness expert. Follow these rules strictly:\n" +
+                        "You are Dieto, an expert nutritionist dietitian and fitness expert.\n"+
+                        "Follow these rules strictly:\n" +
                         "1. Only answer questions about nutrition, diets, fitness or food science\n" +
                         "2. If asked about other topics, respond: \"I specialize in nutrition , fitness and diet advice. Please ask food and fitness-related questions.\"\n" +
                         "3. Keep responses under 50 words\n" +
                         "4. Use simple, clear language\n" +
-//                        "5. Always provide practical advice\n\n" +
+                        "5. Always provide practical advice\n" +
                         "Current question: %s\n" +
                         "<|eot_id|>\n" +
                         "<|start_header_id|>assistant<|end_header_id|>\n",
@@ -203,7 +244,8 @@ public class Dieto extends AppCompatActivity {
     }
 
 
-    private JSONObject createApiPayload(String prompt) {
+
+    private JSONObject createLlamaPayload(String prompt) {
         JSONObject payload = new JSONObject();
         try {
             payload.put("inputs", prompt);
@@ -220,26 +262,101 @@ public class Dieto extends AppCompatActivity {
         return payload;
     }
 
+    private JSONObject createMistralPayload(String userMessage) {
+        JSONObject payload = new JSONObject();
+        try {
+            JSONArray messages = new JSONArray();
 
-    private void handleApiResponse(JSONArray response, String userMessage) {
+            // System message
+            JSONObject systemMessage = new JSONObject();
+            systemMessage.put("role", "system");
+            systemMessage.put("content",
+                    "You are Dieto, an expert nutritionist dietitian and fitness expert.\n" +
+                            "Follow these rules strictly:\n" +
+                            "1. Only answer questions about nutrition, diets, fitness or food science\n" +
+                            "2. If asked about other topics, respond: \"I specialize in nutrition , fitness and diet advice. Please ask food and fitness-related questions.\"\n" +
+                            "3. Keep responses under 50 words\n" +
+                            "4. Use simple, clear language\n" +
+                            "5. Always provide practical advice");
+
+            // User message
+            JSONObject userMessageObj = new JSONObject();
+            userMessageObj.put("role", "user");
+            userMessageObj.put("content", userMessage);
+
+            messages.put(systemMessage);
+            messages.put(userMessageObj);
+
+            payload.put("messages", messages);
+            payload.put("max_tokens", 120);
+            payload.put("temperature", 0.2);
+            payload.put("top_p", 0.95);
+        } catch (JSONException e) {
+            Log.e("Dieto", "Mistral payload error", e);
+        }
+        return payload;
+    }
+
+
+    private void handleLlamaResponse(JSONArray response, String userMessage) {
         try {
             String generatedText = response.getJSONObject(0)
                     .getString("generated_text")
                     .trim();
-
-            runOnUiThread(() -> {
-                if (currentLoadingView != null) {
-                    chatLayout.removeView(currentLoadingView);
-                    currentLoadingView = null;
-                }
-                displayAIResponse(cleanResponse(generatedText));
-                sendButton.setEnabled(true);
-                messageInput.setEnabled(true); // Re-enable input
-            });
+            displayResponse(generatedText);
         } catch (Exception e) {
             handleError("Couldn't process response");
         }
     }
+
+    private void handleMistralResponse(JSONObject response, String userMessage) {
+        try {
+            JSONArray choices = response.getJSONArray("choices");
+            if (choices.length() > 0) {
+                JSONObject message = choices.getJSONObject(0)
+                        .getJSONObject("message");
+                String generatedText = message.getString("content").trim();
+                displayResponse(generatedText);
+            } else {
+                handleEmptyResponse();
+            }
+        } catch (Exception e) {
+            handleError("Couldn't process Mistral response");
+        }
+    }
+
+    private void displayResponse(String generatedText) {
+        runOnUiThread(() -> {
+            if (currentLoadingView != null) {
+                chatLayout.removeView(currentLoadingView);
+                currentLoadingView = null;
+            }
+            displayAIResponse(cleanResponse(generatedText));
+            sendButton.setEnabled(true);
+            messageInput.setEnabled(true);
+        });
+    }
+
+
+//    private void handleApiResponse(JSONArray response, String userMessage) {
+//        try {
+//            String generatedText = response.getJSONObject(0)
+//                    .getString("generated_text")
+//                    .trim();
+//
+//            runOnUiThread(() -> {
+//                if (currentLoadingView != null) {
+//                    chatLayout.removeView(currentLoadingView);
+//                    currentLoadingView = null;
+//                }
+//                displayAIResponse(cleanResponse(generatedText));
+//                sendButton.setEnabled(true);
+//                messageInput.setEnabled(true); // Re-enable input
+//            });
+//        } catch (Exception e) {
+//            handleError("Couldn't process response");
+//        }
+//    }
 
     private String cleanResponse(String response) {
         // Basic cleaning without content validation
