@@ -1,5 +1,6 @@
 package com.example.nutri_scan.ui;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
@@ -37,6 +38,7 @@ import java.util.Calendar;
 
 
 public class Dashboard extends AppCompatActivity {
+
     ActivityDashboardBinding binding;
 
     private SensorManager sensorManager;
@@ -148,6 +150,7 @@ public class Dashboard extends AppCompatActivity {
             return true;
         });
 
+
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(view -> {
             Intent intent = new Intent(Dashboard.this, Scanner.class);
@@ -165,6 +168,8 @@ public class Dashboard extends AppCompatActivity {
         }
 
 }
+
+
 
 
 

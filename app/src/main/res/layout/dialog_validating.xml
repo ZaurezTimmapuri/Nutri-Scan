@@ -1,37 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="24dp"
+    android:padding="28dp"
     android:background="@drawable/loading_bg"
-    android:layout_margin="16dp"
-    android:elevation="4dp">
+    android:layout_margin="20dp"
+    android:elevation="8dp">
 
     <ProgressBar
         android:id="@+id/progressBar_validation"
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:indeterminateTint="@color/green"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/textView_validation"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintVertical_bias="0.5"/>
+        android:layout_marginBottom="12dp" />
 
     <TextView
         android:id="@+id/textView_validation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/progressBar_validation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
         android:fontFamily="@font/montserrat_medium"
-        android:text="Validating...."
+        android:text="Validating data..."
         android:textColor="@color/green"
-        android:textSize="18sp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/progressBar_validation"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/subTextView_validation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_validation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Please wait while we verify your information"
+        android:textColor="@color/grey"
+        android:textSize="14sp" />
+</RelativeLayout>

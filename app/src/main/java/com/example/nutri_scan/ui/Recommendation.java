@@ -48,8 +48,8 @@ public class Recommendation extends AppCompatActivity {
     private String lastScannedBarcode = null;
 
     private static final int TOP_N_RECOMMENDATIONS = 10;
-    private static final double INITIAL_FILTER_THRESHOLD = 0.25; // Combined threshold for first pass
-    private static final double FINAL_SIMILARITY_THRESHOLD = 0.02;
+    private static final double INITIAL_FILTER_THRESHOLD = 0.08; // Combined threshold for first pass
+    private static final double FINAL_SIMILARITY_THRESHOLD = 0.20;
 
 
     @Override

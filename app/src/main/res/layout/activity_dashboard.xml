@@ -66,7 +66,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="8dp"
         android:padding="20dp"
         android:orientation="vertical">
 
@@ -84,7 +85,7 @@
           android:id="@+id/slider_card"
           android:layout_width="match_parent"
           android:layout_height="250dp"
-          android:layout_marginTop="25dp"
+          android:layout_marginTop="8dp"
           app:cardCornerRadius="12dp"
           app:cardElevation="6dp">
 
@@ -128,9 +129,9 @@
           android:id="@+id/knowYourselfText"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
-          android:layout_marginTop="20dp"
+          android:layout_marginTop="10dp"
           android:fontFamily="@font/montserrat_medium"
-          android:text="Know Yourself:"
+          android:text="Do you know Yourself ? 🤔"
           android:textColor="@color/black"
           android:textSize="20sp"
           android:textStyle="bold" />
@@ -139,7 +140,7 @@
           android:id="@+id/functionalCardsViewPager"
           android:layout_width="match_parent"
           android:layout_height="200dp"
-          android:layout_marginTop="16dp"
+          android:layout_marginTop="10dp"
           android:layout_marginBottom="80dp"
           android:clipToPadding="false"
           android:clipChildren="false"
@@ -212,7 +213,6 @@
       android:id="@+id/bottomAppBar"
       android:layout_gravity="bottom"
       android:backgroundTint="@color/green"
-      android:background="@color/white"
       app:contentInsetStart="0dp"
       app:contentInsetEnd="0dp"
       app:fabAlignmentMode="center"
@@ -229,7 +229,6 @@
         app:itemIconSize="25dp"
         app:itemIconTint="@color/white"
         app:itemTextColor="@color/white"
-        app:itemRippleColor="@android:color/transparent"
         app:labelVisibilityMode="labeled"
         app:menu="@menu/bottom_menu"/>
 

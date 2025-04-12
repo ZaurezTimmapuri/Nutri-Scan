@@ -129,6 +129,8 @@ public class RecommendationAdapter extends RecyclerView.Adapter<RecommendationAd
             for (Product product : products) {
                 if (product.getProduct_Name().toLowerCase().contains(currentSearchText)) {
                     filteredProducts.add(product); // Add products that match the search text
+                } else if (product.getProduct_Brand().toLowerCase().contains(currentSearchText)){
+                    filteredProducts.add(product);
                 }
             }
         }

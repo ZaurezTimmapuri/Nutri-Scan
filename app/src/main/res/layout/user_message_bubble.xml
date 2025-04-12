@@ -14,10 +14,11 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginEnd="8dp"
+        android:layout_gravity="top"
         android:background="@drawable/bg_circular"
         android:src="@drawable/icon_user"
         android:contentDescription="Icon description"
-        android:scaleType="centerInside" />
+        android:scaleType="centerCrop" />
 
     <!-- TextView -->
     <TextView

@@ -18,6 +18,7 @@ import com.android.volley.toolbox.JsonRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.nutri_scan.BuildConfig;
 import com.example.nutri_scan.R;
+import com.example.nutri_scan.utils.Typewriter;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
@@ -55,8 +56,9 @@ public class Dieto extends AppCompatActivity {
     private ImageButton sendButton;
     private enum ModelType { LLAMA, MISTRAL }
     private static final ModelType CURRENT_MODEL = ModelType.MISTRAL;
+//    private static final ModelType CURRENT_MODEL = ModelType.LLAMA;
     private ScrollView scrollView;
-    private static final int MAX_RETRIES = 3;
+    private static final int MAX_RETRIES = 6;
     private static final String API_URL = CURRENT_MODEL == ModelType.LLAMA
             ? "https://api-inference.huggingface.co/models/meta-llama/Meta-Llama-3-8B-Instruct"
             : "https://router.huggingface.co/hf-inference/models/mistralai/Mistral-7B-Instruct-v0.2/v1/chat/completions";
@@ -252,7 +254,7 @@ public class Dieto extends AppCompatActivity {
             JSONObject parameters = new JSONObject()
                     .put("max_new_tokens", 120)
                     .put("temperature", 0.2)
-                    .put("top_p", 0.9)
+                    .put("top_p", 0.95)
                     .put("repetition_penalty", 1.2)
                     .put("return_full_text", false);
             payload.put("parameters", parameters);
@@ -367,6 +369,7 @@ public class Dieto extends AppCompatActivity {
     }
 
     private void handleApiError(VolleyError error, String userMessage, int retryCount) {
+        NetworkResponse response = error.networkResponse;
         if (retryCount < MAX_RETRIES) {
             new Handler().postDelayed(() -> sendToApi(userMessage, retryCount + 1), 1000);
         } else {
@@ -381,6 +384,8 @@ public class Dieto extends AppCompatActivity {
             });
         }
     }
+
+
 
 
 
@@ -439,8 +444,11 @@ public class Dieto extends AppCompatActivity {
     }
     private void displayAIResponse(String response) {
         View aiBubble = getLayoutInflater().inflate(R.layout.ai_response_bubble, null);
-        TextView aiMessageTextView = aiBubble.findViewById(R.id.aiResponseBubble);
-        aiMessageTextView.setText(response);
+        Typewriter aiMessageTextView = aiBubble.findViewById(R.id.aiResponseBubble);
+        aiMessageTextView.setText("AI is typing...");
+        aiMessageTextView.setCharacterDelay(20);
+        aiMessageTextView.animateText(response);
+//        aiMessageTextView.setText(response);
 
         LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,

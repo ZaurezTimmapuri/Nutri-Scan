@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 
 import com.example.nutri_scan.R;
 
-public class LoadingDialog {
+public class LoadingDialog  {
 
     private Activity activity;
     private AlertDialog dialog;

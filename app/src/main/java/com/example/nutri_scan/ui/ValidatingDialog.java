@@ -5,10 +5,11 @@ import android.view.LayoutInflater;
 
 import com.example.nutri_scan.R;
 
-public class ValidatingDialog {
+public class ValidatingDialog  {
 
     private Activity activity;
     private AlertDialog dialog;
+
 
     ValidatingDialog(Activity myActivity){
         activity = myActivity;
