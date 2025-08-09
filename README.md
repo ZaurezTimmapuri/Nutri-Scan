@@ -6,6 +6,12 @@ Scan product barcodes 🤳, get instant nutritional insights 📊, discover heal
 Even get personalized diet advice with our integrated AI chatbot, **DietoAI** 🤖!
 ---
 
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/8a373fff-a96b-4784-af49-29237f6cb006" alt="Nuti-Scan in Action" width="300"/>
+</p>
+
+---
+
 ## ✨ Features
 
 *   **⚡ Instant Barcode Scanning:** Quickly scan product barcodes using your device's camera.
@@ -20,8 +26,8 @@ Even get personalized diet advice with our integrated AI chatbot, **DietoAI** �
 *   **🤖 DietoAI - Your Personal Diet Assistant:**
     *   Ask questions about nutrition, specific foods, or get personalized meal suggestions.
     *   *Meet DietoAI:* [DietoAI Chatbot Demo](https://github.com/user-attachments/assets/6230a260-a6d7-42cd-baf8-dfc4a5150c1c)
-*   **💪 FitPal Integration (Concept):** Shows how Nuti-Scan can interact with other health and fitness concepts.
-    *   *Check out the concept:* [Fitpal Demo](https://github.com/user-attachments/assets/b5f4366b-c537-4a5b-bb4b-15aa66e835fd)
+*   **💪 FitPal Integration:** Shows how Nuti-Scan can interact with other health and fitness concepts.
+    *   *Check out the Moduke:* [Fitpal Demo](https://github.com/user-attachments/assets/b5f4366b-c537-4a5b-bb4b-15aa66e835fd)
 *   **🔍 Manual Search:** Easily search for products in our extensive database if you don't have the barcode.
 *   **🌟 User-Friendly Interface:** Clean, intuitive, and easy to navigate for a seamless experience.
 
